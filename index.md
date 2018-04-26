@@ -7,7 +7,7 @@ I am currently a sophomore at [IIIT-Delhi](http://iiitd.ac.in/) pursuing a BTech
 
 ## YSK
 
-- I am the Founding Coordinator of Évariste, the Math club of IIITD. Visit our website: [bit.ly/EvaristeClub](bit.ly/EvaristeClub)
+- I am the Founding Coordinator of Évariste, the Math club of IIITD. Visit our website: [bit.ly/EvaristeClub](www.bit.ly/EvaristeClub)
 - I am the Student Senate representative for my CSAM batch, 2018-19.
 
 ## Projects
