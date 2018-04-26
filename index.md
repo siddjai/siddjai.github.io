@@ -1,3 +1,8 @@
+---
+title: Reddy
+layout: post
+---
+
 ## TCS Enthusiast at IIIT-Delhi
 
 I am currently a sophomore at [IIIT-Delhi](http://iiitd.ac.in/) pursuing a BTech in Computer Science & Applied Mathematics. I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
