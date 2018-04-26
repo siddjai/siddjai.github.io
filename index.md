@@ -1,6 +1,4 @@
 ---
-title: Reddy
-layout: post
 ---
 
 ## TCS Enthusiast at IIIT-Delhi
