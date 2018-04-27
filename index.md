@@ -3,7 +3,17 @@ title: About Me
 layout: default
 ---
 
+> Somewhere, something incredible is waiting to be known.
+
+Carl Sagan
+
+> If you optimize everything, you will always be unhappy.
+
+
+Donald Knuth
+
 ## TCS Enthusiast
+Theoretical Computer Science (TCS) has an amazingly rich literature for me to dive into and intriguing problems for me to solve. I admire TCS because it extends the rigor of Mathematics to computing, which has been a fascination of mine for a long time. Fields of TCS are worth exploring for their own right, like any Math field. Asking fundamental and then incremental questions and finding satisfying answers is a great joy, and one that is amplified in TCS.
 
 I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
 
@@ -13,5 +23,8 @@ Since Jan 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 
 ## Notable Courses
 
+ - Theory of Computation
  - Discrete Mathematics, A
  - Number Theory, A+ 
+ - Abstract Algebra
+ - Combinatorics
