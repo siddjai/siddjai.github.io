@@ -1,6 +1,6 @@
 ---
 title: About Me
-layout: post
+layout: default
 ---
 
 ## TCS Enthusiast at IIIT-Delhi
