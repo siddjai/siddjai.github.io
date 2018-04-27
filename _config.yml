@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Sid Jain
 tagline:          'TCS Enthusiast'
-description:      'Sophomore at IIIT-Delhi, studying Computer Science & Applied Mathematics. Founder & Coordinator of its <a href="http://bit.ly/EvaristeClub" target="_blank">Math Club</a>. Part of the <a href="http://studentsenate.iiitd.edu.in/" target="_blank">Student Senate</a>.'
+description:      'Sophomore at <a href="http://iiitd.ac.in/" target="_blank">IIIT-Delhi</a>, studying Computer Science & Applied Mathematics. Founder & Coordinator of its <a href="http://bit.ly/EvaristeClub" target="_blank">Math Club</a>. Part of the <a href="http://studentsenate.iiitd.edu.in/" target="_blank">Student Senate</a>.'
 url:              http://sidjain.me
 baseurl:          /
 
