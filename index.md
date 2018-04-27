@@ -1,5 +1,6 @@
 ---
 title: About Me
+layout: page
 ---
 
 ## TCS Enthusiast at IIIT-Delhi
