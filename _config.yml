@@ -1,3 +1,26 @@
-remote_theme: poole/hyde
-title: Siddhartha Jain
-description: While my love is primarily reserved for Theoretical Computer Science and Math, I have an interest in Writing fiction, Photography and Design.
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Siddhartha Jain
+tagline:          'TCS Enthusiast'
+description:      Sophomore at IIIT-Delhi.
+url:              http://sidjain.me
+baseurl:          /
+
+author:
+  name:           'Siddhartha Jain'
+  url:            sidjain.me
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/siddjai/siddjai.github.io
