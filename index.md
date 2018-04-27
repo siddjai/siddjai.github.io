@@ -1,4 +1,5 @@
 ---
+title: About Me
 ---
 
 ## TCS Enthusiast at IIIT-Delhi
