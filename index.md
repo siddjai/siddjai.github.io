@@ -3,14 +3,9 @@ title: About Me
 layout: default
 ---
 
-## TCS Enthusiast at IIIT-Delhi
+## TCS Enthusiast
 
-I am currently a sophomore at [IIIT-Delhi](http://iiitd.ac.in/) pursuing a BTech in Computer Science & Applied Mathematics. I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
-
-## YSK
-
-- I am the Founding Coordinator of Évariste, the Math club of IIITD. Visit our website: [bit.ly/EvaristeClub](https://www.reddit.com/r/mathiiitd/wiki/index)
-- I am the Student Senate representative for my CSAM batch, 2018-19.
+I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
 
 ## Projects
 ### Guillotine Cuts (Prof Rajiv Raman)
