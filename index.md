@@ -2,7 +2,7 @@
 title: About Me
 layout: default
 ---
-{% markdown %}
+
 ## TCS Enthusiast at IIIT-Delhi
 
 I am currently a sophomore at [IIIT-Delhi](http://iiitd.ac.in/) pursuing a BTech in Computer Science & Applied Mathematics. I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
@@ -20,4 +20,3 @@ Since Jan 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 
  - Discrete Mathematics, A
  - Number Theory, A+ 
-{% endmarkdown %}
