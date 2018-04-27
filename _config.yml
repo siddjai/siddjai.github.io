@@ -23,3 +23,11 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/siddjai/siddjai.github.io
+
+#Default layouts
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
