@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Jain
+title:            Sid Jain
 tagline:          'TCS Enthusiast'
 description:      Sophomore at IIIT-Delhi.
 url:              http://sidjain.me
@@ -14,7 +14,7 @@ baseurl:          /
 
 author:
   name:           'Siddhartha Jain'
-  url:            sidjain.me
+  url:            http://sidjain.me
 
 paginate:         5
 
