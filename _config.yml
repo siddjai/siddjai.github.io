@@ -1,4 +1,3 @@
-remote_theme: poole/hyde
-theme: jekyll minimal theme
+remote_theme: BenKalsky/hyde-sass
 title: Siddhartha Jain
 description: While my love is primarily reserved for Theoretical Computer Science and Math, I have an interest in Writing fiction, Photography and Design.
