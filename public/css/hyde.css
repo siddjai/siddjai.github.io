@@ -79,6 +79,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+  margin-bottom: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
 }
