@@ -27,7 +27,7 @@ Since Jan 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 ## Experience
 #### 2018
 ### Combinatorics & Graph Theory
-#### IIIT-Delhi | Prof Samrith Ram
+#### IIIT-Delhi Internship | Prof Samrith Ram
 Selected to study and work on various topics in Combinatorics and Graph Theory during the summer term.
 
 #### 2017
