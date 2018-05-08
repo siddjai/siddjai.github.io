@@ -5,7 +5,7 @@ layout: default
 
 > Somewhere, something incredible is waiting to be known.
 
-*Carl Sagan*
+Carl Sagan
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 > If you optimize everything, you will always be unhappy.
 
-*Donald Knuth*
+Donald Knuth
 
 ___
 
