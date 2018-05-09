@@ -20,8 +20,8 @@ ___
 Projects
 ------
 ### Guillotine Cuts
-#### Prof Rajiv Raman | Bachelor Thesis
-Since Jan 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach et al] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible.
+#### Prof Rajiv Raman | Bachelor's Thesis
+Since Jan 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach et al] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. You can take a look at this project's [repository](https://github.com/siddjai/GuillotineCuts).
 
 ___
 
