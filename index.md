@@ -54,5 +54,4 @@ Notable Courses
  - Discrete Mathematics, A
  - Number Theory, A+ 
  - Abstract Algebra, A
- - Analysis & Design of Algorithms
- - Combinatorics
+ - Combinatorics, A
