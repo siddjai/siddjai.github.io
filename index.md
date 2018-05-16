@@ -51,7 +51,7 @@ Notable Courses
 ------
 
  - Theory of Computation, A
- - Discrete Mathematics, A
+ - Discrete Structures, A
  - Number Theory, A+ 
  - Abstract Algebra, A
  - Combinatorics, A
