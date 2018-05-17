@@ -55,4 +55,5 @@ Notable Courses
  - Number Theory, A+ 
  - Abstract Algebra, A
  - Combinatorics, A
+ - Analysis & Design of Algorithms, A-
  - Competitive Programming 1, A
