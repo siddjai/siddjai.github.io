@@ -50,6 +50,8 @@ ___
 Notable Courses
 ------
 
+ - Complexity Theory
+ - Modern Algorithm Design
  - Theory of Computation, A
  - Discrete Structures, A
  - Number Theory, A+ 
