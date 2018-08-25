@@ -36,6 +36,8 @@ ___
 #### 2018
 ### Teaching Assistant | Discrete Structures
 ####  Prof Rajiv Raman | IIIT-Delhi 
+The course website can be found [here](https://sites.google.com/a/iiitd.ac.in/discrete-structures).
+For students of IIITD, the Backpack course is [here](https://www.usebackpack.com/iiitd/m2018/mth210).
 
 #### 2018
 ### Combinatorics & Graph Theory
