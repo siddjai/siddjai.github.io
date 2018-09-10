@@ -55,9 +55,9 @@ ___
 Notable Courses
 ------
 
- - Complexity Theory
- - Modern Algorithm Design
- - Theory of Computation, A
+ - Complexity Theory [[Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/)]
+ - Modern Algorithm Design [[Website](https://sites.google.com/a/iiitd.ac.in/mad18/home)]
+ - Theory of Computation, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse322-w17/)]
  - Discrete Structures, A
  - Number Theory, A+ 
  - Abstract Algebra, A
