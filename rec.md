@@ -29,6 +29,7 @@ title: Recommendations
 - Bojack Horseman 
 - Master of None
 - Breaking Bad
+- The Newsroom
 
 ### Movies
 
