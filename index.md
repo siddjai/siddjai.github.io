@@ -64,3 +64,4 @@ Notable Courses
  - Combinatorics & It's Applications, A
  - Analysis & Design of Algorithms, A-
  - Competitive Programming 1, A
+ - Linear Algebra, A-
