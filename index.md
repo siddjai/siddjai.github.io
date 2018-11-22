@@ -40,14 +40,18 @@ ___
 ## Experience
 
 #### 2018
+### External reviewer for JCSS (Journal of Computer and System Sciences)
+#### Prof Debajyoti Bera | IIIT Delhi
+
+#### 2018
 ### Teaching Assistant | Discrete Structures
-####  Prof Rajiv Raman | IIIT-Delhi 
+####  Prof Rajiv Raman | IIIT Delhi 
 The course website can be found [here](https://sites.google.com/a/iiitd.ac.in/discrete-structures).
 For students of IIITD, the Backpack course is [here](https://www.usebackpack.com/iiitd/m2018/mth210).
 
 #### 2018
 ### Combinatorics & Graph Theory
-####  Prof Samrith Ram | IIIT-Delhi Internship
+####  Prof Samrith Ram | IIIT Delhi Internship
 Selected to study various topics in Combinatorics and Graph Theory during the summer term.
 
 
