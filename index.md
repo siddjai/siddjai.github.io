@@ -65,6 +65,9 @@ ___
 Notable Courses
 ------
 
+ - Randomised Algorithms
+ - Intro to Dynamical Systems
+ - Abstract Algebra 2
  - Complexity Theory, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/)]
  - Modern Algorithm Design, A [[Website](https://sites.google.com/a/iiitd.ac.in/mad18/home)]
  - Theory of Computation, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse322-w17/)]
@@ -72,6 +75,5 @@ Notable Courses
  - Number Theory, A+ 
  - Abstract Algebra, A
  - Combinatorics & It's Applications, A
- - Analysis & Design of Algorithms, A-
  - Competitive Programming 1, A
  - Linear Algebra, A-
