@@ -77,3 +77,10 @@ Notable Courses
  - Combinatorics & It's Applications, A
  - Competitive Programming 1, A
  - Linear Algebra, A-
+ 
+ #### IIITD Grading Scheme
+ Letter Grade | Grade Point | Comment
+--- | --- | ---
+A+ | 10 | Outstanding
+A | 10 | 
+A- | 9 |
