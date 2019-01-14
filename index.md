@@ -79,6 +79,7 @@ Notable Courses
  - Linear Algebra, A-
  
  #### IIITD Grading Scheme
+ 
  Letter Grade | Grade Point | Comment
 --- | --- | ---
 A+ | 10 | Outstanding
