@@ -78,7 +78,7 @@ Notable Courses
  - Competitive Programming 1, A
  - Linear Algebra, A-
  
- #### IIITD Grading Scheme
+ #### IIIT-Delhi Grading Scheme
  
  Letter Grade | Grade Point | Comment
 --- | --- | ---
