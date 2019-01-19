@@ -71,6 +71,7 @@ Notable Courses
 ------
 
  - Randomised Algorithms
+ - Linear Optimisation
  - Intro to Dynamical Systems
  - Abstract Algebra 2
  - Complexity Theory, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/)]
