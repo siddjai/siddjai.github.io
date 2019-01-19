@@ -30,7 +30,7 @@ Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 - [GitHub Repository](https://github.com/siddjai/GuillotineCuts)
 
 ### Argh!
-#### Algorithms Group Reading Hour
+#### Algorithms Reading Group Hour
 
 Website (should be up soon)
 
