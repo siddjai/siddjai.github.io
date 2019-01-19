@@ -29,6 +29,11 @@ Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 - [Talk - Pattern Matching in Permutations](https://drive.google.com/file/d/0B6YcTGvq8kkBTzNlRlJFbmEtY3BhUnZVNThNOTl4SklzRTZB/view?usp=sharing)
 - [GitHub Repository](https://github.com/siddjai/GuillotineCuts)
 
+### Argh!
+#### Algorithms Group Reading Hour
+
+Website (should be up soon)
+
 ___
 
 > If you optimize everything, you will always be unhappy.
