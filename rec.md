@@ -15,11 +15,13 @@ title: Recommendations
 
 - 1984 *by* George Orwell
 - Turtles All The Way Down *by* John Green
+- The Unbearable Lightness of Being *by* Milan Kundera
 - The Goldfinch *by* Donna Tartt
 
 ### Non-Fiction
 
 - The Conquest of Happiness *by* Bertrand Russell
+- Factfulness *by* Hans Rosling
 
 # Multimedia
 
@@ -35,4 +37,3 @@ title: Recommendations
 
 - 12 Angry Men
 - The Prestige
-
