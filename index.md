@@ -32,7 +32,7 @@ Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 ### Argh!
 #### Algorithms Reading Group Hour
 
-Website (should be up soon)
+[Website](https://sites.google.com/iiitd.ac.in/argh)
 
 ___
 
