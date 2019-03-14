@@ -81,7 +81,7 @@ Notable Courses
  - Discrete Structures, A
  - Number Theory, A+ 
  - Abstract Algebra, A
- - Combinatorics & It's Applications, A
+ - Combinatorics & Its Applications, A
  - Competitive Programming 1, A
  - Linear Algebra, A-
  
