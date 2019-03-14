@@ -11,9 +11,12 @@ ___
 
 Research Interests
 ------
-Theoretical Computer Science has an amazingly rich literature for me to dive into and intriguing problems for me to solve. I admire TCS because it extends the rigor of Mathematics to computing, which has been a fascination of mine for a long time. Fields of TCS are worth exploring for their own right, like any Math field. Asking fundamental and then incremental questions and finding satisfying answers is a great joy, and one that is amplified in TCS.
 
-I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
+I am broadly interested in Theoretical Computer Science / Discrete Mathematics. While I am still exploring areas, some fields I especially want to work in:
+
+- Approximation/Randomised Algorithms
+- Fine Grained Complexity 
+- Combinatorial/Computational Geometry
 
 ___
 
