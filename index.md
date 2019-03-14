@@ -9,9 +9,9 @@ Carl Sagan
 
 ___
 
-TCS Enthusiast
+Research Interests
 ------
-**T**heoretical **C**omputer **S**cience has an amazingly rich literature for me to dive into and intriguing problems for me to solve. I admire TCS because it extends the rigor of Mathematics to computing, which has been a fascination of mine for a long time. Fields of TCS are worth exploring for their own right, like any Math field. Asking fundamental and then incremental questions and finding satisfying answers is a great joy, and one that is amplified in TCS.
+Theoretical Computer Science has an amazingly rich literature for me to dive into and intriguing problems for me to solve. I admire TCS because it extends the rigor of Mathematics to computing, which has been a fascination of mine for a long time. Fields of TCS are worth exploring for their own right, like any Math field. Asking fundamental and then incremental questions and finding satisfying answers is a great joy, and one that is amplified in TCS.
 
 I see myself eventually working as a researcher in Theoretical Computer Science / Discrete Mathematics.
 
@@ -26,6 +26,7 @@ Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangl
 #### Project Resources
 
 - [Project Notes](https://drive.google.com/file/d/1jIO42yqXNnvBV0but5ltBkpygqLOCK0j/view?usp=sharing)
+- [(Draft of) Thesis](https://drive.google.com/open?id=1MuFOzVj7ZXyarMBzD414wb_ZIb7ey0na)
 - [Talk - Pattern Matching in Permutations](https://drive.google.com/file/d/0B6YcTGvq8kkBTzNlRlJFbmEtY3BhUnZVNThNOTl4SklzRTZB/view?usp=sharing)
 - [GitHub Repository](https://github.com/siddjai/GuillotineCuts)
 
