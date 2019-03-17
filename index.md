@@ -12,7 +12,7 @@ ___
 Research Interests
 ------
 
-I am broadly interested in Theoretical Computer Science / Discrete Mathematics. While I am still exploring areas, some fields I especially want to work in:
+I am broadly interested in Theoretical Computer Science / Discrete Mathematics. While I am still exploring areas, some fields I want to work in:
 
 - Approximation/Randomised Algorithms
 - Fine Grained Complexity 
@@ -24,7 +24,7 @@ Projects
 ------
 ### Guillotine Cuts & Pattern Avoidance in Permutations
 #### Prof Rajiv Raman & Prof Samrith Ram | Bachelor's Thesis
-Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach et al] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper.
+Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper.
 
 #### Project Resources
 
