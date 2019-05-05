@@ -48,6 +48,11 @@ ___
 
 ## Experience
 
+### 2019
+### Research Intern
+#### Prof Bundit Laekhanukit | ITCS@SUFE
+Visiting Shanghai in the summer to work with [prof](http://itcs.shufe.edu.cn/~blaekh/). 
+
 ### 2018
 ### External reviewer for JCSS (Journal of Computer and System Sciences)
 #### Prof Debajyoti Bera | IIIT Delhi
