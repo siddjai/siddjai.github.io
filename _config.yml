@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            SIDDHARTHA
 tagline:          'CS&DM Researcher'
-description:      'Visiting <a href="http://itcs.shufe.edu.cn/~blaekh/" target="_blank">ITCS@SUFE</a>. Undergrad at <a href="http://iiitd.ac.in/" target="_blank">IIIT-Delhi</a>, studying Computer Science & Mathematics. Founder & Coordinator of its <a href="http://bit.ly/EvaristeClub" target="_blank">Math Club</a>. Member of the <a href="http://studentsenate.iiitd.edu.in/" target="_blank">Student Senate</a>. <a href='/Resume.pdf'>Resume</a>.'
+description:      'Visiting <a href="http://itcs.shufe.edu.cn/~blaekh/" target="_blank">ITCS@SUFE</a>. Undergrad at <a href="http://iiitd.ac.in/" target="_blank">IIIT-Delhi</a>, studying Computer Science & Mathematics. Founder & Coordinator of its <a href="http://bit.ly/EvaristeClub" target="_blank">Math Club</a>. Member of the <a href="http://studentsenate.iiitd.edu.in/" target="_blank">Student Senate</a>. <a href='Resume.pdf'>Resume</a>.'
 url:              http://sidjain.me
 baseurl:          /
 
@@ -39,7 +39,3 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-
-menu:
- - title: "Photography"
-   url: https://www.alamy.com/stock-photography/F8D2F401-E729-493D-B0E3-25B71D5634FC/1/Siddhartha Jain.html
