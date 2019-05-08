@@ -39,3 +39,7 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+menu:
+ - title: "Photography"
+   url: https://www.alamy.com/stock-photography/F8D2F401-E729-493D-B0E3-25B71D5634FC/1/Siddhartha Jain.html
