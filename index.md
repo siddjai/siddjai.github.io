@@ -49,7 +49,7 @@ ___
 ## Experience
 
 ### 2019
-### Research Intern
+### Research Assistant
 #### Prof Bundit Laekhanukit | ITCS@SUFE
 Visiting Shanghai in the summer to work with [prof](http://itcs.shufe.edu.cn/~blaekh/). 
 
@@ -76,20 +76,20 @@ ___
 
 Notable Courses
 ------
+ - Randomised Algorithms (A-) 
+ - Complexity Theory (A) ([Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/))
+ - Modern Algorithm Design (A) ([Website](https://sites.google.com/a/iiitd.ac.in/mad18/home))
+ - Theory of Computation (A) ([Website](https://sites.google.com/a/iiitd.ac.in/cse322-w18/))
+ - Discrete Structures (A)
+ - Combinatorics (A)
+ - Linear Optimisation (A)
+ - Number Theory (A+) 
+ - Abstract Algebra I (A)
+ - Abstract Algebra II (A-) 
+ - Intro to Dynamical Systems (A)
+ - Competitive Programming 1 (A)
+ - Linear Algebra (A-) 
 
- - Randomised Algorithms
- - Linear Optimisation
- - Intro to Dynamical Systems
- - Abstract Algebra 2
- - Complexity Theory, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/)]
- - Modern Algorithm Design, A [[Website](https://sites.google.com/a/iiitd.ac.in/mad18/home)]
- - Theory of Computation, A [[Website](https://sites.google.com/a/iiitd.ac.in/cse322-w17/)]
- - Discrete Structures, A
- - Number Theory, A+ 
- - Abstract Algebra, A
- - Combinatorics & Its Applications, A
- - Competitive Programming 1, A
- - Linear Algebra, A-
  
 IIIT-Delhi Grading Scheme
  
