@@ -24,7 +24,7 @@ Projects
 ------
 ### Guillotine Cuts & Pattern Avoidance in Permutations
 #### Prof Rajiv Raman & Prof Samrith Ram | Bachelor's Thesis
-Since May 2018 I have been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper.
+From May 2018 to May 2019 I was been working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper. We found and explored an interesting link with Pattern Matching in permutations.
 
 #### Project Resources
 
@@ -51,7 +51,7 @@ ___
 ### 2019
 ### Research Assistant
 #### Prof Bundit Laekhanukit | ITCS@SUFE
-Visiting Shanghai in the summer to work with [prof](http://itcs.shufe.edu.cn/~blaekh/). 
+Visiting Shanghai in the summer to work with [Prof Bundit](http://itcs.shufe.edu.cn/~blaekh/). 
 
 ### 2018
 ### External reviewer for JCSS (Journal of Computer and System Sciences)
