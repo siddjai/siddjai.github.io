@@ -49,9 +49,13 @@ ___
 ## Experience
 
 ### 2019
-### Research Assistant
+### Research Intern
 #### Prof Bundit Laekhanukit | ITCS@SUFE
 Visiting Shanghai in the summer to work with [Prof Bundit](http://itcs.shufe.edu.cn/~blaekh/). 
+
+### Mathematics in Data Science
+#### IFCAM Summer School | IISc Bangalore
+Selected for scholarship to attend the [summer school](http://math.iisc.ac.in/~ifcam/Summer_School2019.htm).
 
 ### 2018
 ### External reviewer for JCSS (Journal of Computer and System Sciences)
