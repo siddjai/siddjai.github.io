@@ -16,7 +16,7 @@ author:
   name:           'Siddhartha Jain'
   url:            http://sidjain.me
 
-paginate:         5
+paginate:         1
 paginate_path:    "/writing/page:num/"
 
 # Custom vars
