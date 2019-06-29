@@ -14,9 +14,8 @@ Research Interests
 
 I am broadly interested in Theoretical Computer Science / Discrete Mathematics. While I am still exploring areas, some fields I want to work in:
 
-- Approximation/Randomised Algorithms
+- Approximation Algorithms
 - Fine Grained Complexity 
-- Combinatorial/Computational Geometry
 
 ___
 
