@@ -12,7 +12,7 @@ ___
 Research Interests
 ------
 
-I am broadly interested in Theoretical Computer Science / Discrete Mathematics. While I am still exploring areas, some fields I want to work in:
+I am broadly interested in Theoretical Computer Science. While I am still exploring areas, some fields I want to work in:
 
 - Approximation Algorithms
 - Fine Grained Complexity 
@@ -50,7 +50,7 @@ ___
 ### 2019
 ### Research Intern
 #### Prof Bundit Laekhanukit | ITCS@SUFE
-Visiting Shanghai in the summer to work with [Prof Bundit](http://itcs.shufe.edu.cn/~blaekh/). 
+Visited Shanghai in the summer, hosted by [Prof Bundit](http://itcs.shufe.edu.cn/~blaekh/). 
 
 ### Mathematics for Data Science
 #### IFCAM Summer School | IISc Bangalore
