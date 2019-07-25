@@ -77,6 +77,11 @@ I was a scholar selected to study state of the art material from renowned profes
 
 ___
 
+> Computer
+Ccience is no more about computers than astronomy is about telescopes.
+
+- Edsger W. Dijkstra
+
 Notable Courses
 ------
  - Randomised Algorithms (A-) 
