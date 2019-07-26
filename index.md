@@ -13,8 +13,10 @@ Carl Sagan
 
 ___
 
-<img style="width:5em;" src="img/vienna.jpeg" class="img-responsive" alt="My Picture">
+<img style="width:15em;" src="img/vienna.jpeg" class="img-responsive" alt="My Picture">
 <a href="https://www.linkedin.com/in/akareddy" target="_blank" alt="linked in"><i class="fa fa-linkedin fa-2x"></i></a><a href="https://twitter.com/sidjai_" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+
+
 ___
 
 Research Interests
