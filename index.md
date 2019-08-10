@@ -31,6 +31,18 @@ ___
 
 Projects
 ------
+### Algorithms for Big Data
+#### Prof Rajiv Raman | Independent Study
+I am studying the topic from various sources and presenting to Prof Rajiv and some of my peers. I will also be compiling notes on what I present.
+
+### Online Matching
+#### Prof Syamantak Das | Independent Project
+
+### Argh!
+#### Algorithms Reading Group Hour
+
+[Website](https://sites.google.com/iiitd.ac.in/argh)
+
 ### Guillotine Cuts & Pattern Avoidance in Permutations
 #### Prof Rajiv Raman & Prof Samrith Ram | Bachelor's Thesis
 From May 2018 to May 2019 I was working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper. We found and explored an interesting link with Pattern Matching in permutations.
@@ -41,11 +53,6 @@ From May 2018 to May 2019 I was working on Guillotine Cuts for Axis Parallel Rec
 - [(Draft of) Thesis](https://drive.google.com/open?id=1MuFOzVj7ZXyarMBzD414wb_ZIb7ey0na)
 - [Talk - Pattern Matching in Permutations](https://drive.google.com/file/d/0B6YcTGvq8kkBTzNlRlJFbmEtY3BhUnZVNThNOTl4SklzRTZB/view?usp=sharing)
 - [GitHub Repository](https://github.com/siddjai/GuillotineCuts)
-
-### Argh!
-#### Algorithms Reading Group Hour
-
-[Website](https://sites.google.com/iiitd.ac.in/argh)
 
 ___
 
@@ -84,12 +91,6 @@ Selected to study various topics in Combinatorics and Graph Theory during the su
 ### Graph Theory & Algorithms
 #### ACM Summer School | IIT Gandhinagar
 I was a scholar selected to study state of the art material from renowned professors. The school had the objective of motivating research and promoting collaboration. 
-
-___
-
-> Computer Science is no more about computers than astronomy is about telescopes.
-
-Edsger W. Dijkstra
 
 ___
 
