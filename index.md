@@ -45,7 +45,7 @@ I am studying the topic from various sources and presenting to Prof Rajiv and so
 
 ### Guillotine Cuts & Pattern Avoidance in Permutations
 #### Prof Rajiv Raman & Prof Samrith Ram | Bachelor's Thesis
-From May 2018 to May 2019 I was working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper. We found and explored an interesting link with Pattern Matching in permutations.
+In May 2018 I started working on Guillotine Cuts for Axis Parallel Rectangles. The general problem dates back to the paper [Cutting Glass](https://dl.acm.org/citation.cfm?id=336223) [Pach, Tardos] but the specific problem we're working on is presented directly in [On Guillotine Cutting Sequences](http://drops.dagstuhl.de/opus/volltexte/2015/5291/) [Abed, Chalermsook et al]. In particular, we want to know if one can always save Omega(n) rectangles and exactly what fraction is feasible. Such a lower bound would imply a polytime constant approximation for **MISR** (Maximum Independent Set on Rectangles), as explained in second linked paper. We found and explored an interesting link with Pattern Matching in permutations.
 
 #### Project Resources
 
