@@ -22,7 +22,7 @@ ___
 Research Interests
 ------
 
-I am broadly interested in Theoretical Computer Science. While I am still exploring areas, some fields I that I am excited by are:
+I am broadly interested in Theoretical Computer Science. While I am still exploring areas, some fields that I am excited by are:
 
 - Approximation Algorithms
 - Fine Grained Complexity 
