@@ -34,7 +34,7 @@ Projects
 ------
 ### Algorithms for Big Data
 #### Prof Rajiv Raman | Independent Study
-I am studying the topic from various sources and presenting to Prof Rajiv and some of my peers. I will also be compiling notes on what I present.
+I am studying Streaming/Sketching algorithms from various sources and presenting to Prof Rajiv and some of my peers. I am also [compiling notes](https://drive.google.com/open?id=1WHWdqLdrVjDy0QJN4MpkjOJpQUcEhGRt) on what I present.
 
 ### Online Matching
 #### Prof Syamantak Das | Independent Project
