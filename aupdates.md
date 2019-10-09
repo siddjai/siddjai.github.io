@@ -12,6 +12,9 @@ layout: page
 
 ## Talks
 
+- (4 Oct 19) Communication Complexity & Big Data, [Theory Talks](https://www.reddit.com/r/mathiiitd/wiki/eventhistory), IIIT-Delhi
+  - Titled and designed to attract more students to theory and these fields in particular.
+  - This talk introduced the fields of Communication Complexity and Streaming Algorithms. Then we reduced F_{/infty} to (one-way) Disjointness and further proved it has no randomised sublinear communication protocol.
 - (13 Aug 19) Arora PTAS for Euclidean TSP, [Theory Talks](https://www.reddit.com/r/mathiiitd/wiki/eventhistory), IIIT-Delhi
 - (15 Mar 19) Razborov-Smolensky method and a standard application, [Theory Talks](https://www.reddit.com/r/mathiiitd/wiki/eventhistory), IIIT-Delhi
 - (11, 23 Mar 19) Online Bipartite Matching, [Argh!](https://sites.google.com/iiitd.ac.in/argh), IIIT-Delhi
