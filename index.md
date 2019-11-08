@@ -22,11 +22,7 @@ ___
 Research Interests
 ------
 
-I am broadly interested in Theoretical Computer Science. While I am still exploring areas, some fields that I am excited by are:
-
-- Approximation Algorithms
-- Fine Grained Complexity 
-- Communication Complexity
+I am broadly interested in Theoretical Computer Science. While I am still exploring areas, I enjoy Algorithms which use insights from probability, combinatorics or graph theory. I also enjoy Complexity Theory and am enthusiastic about recent developments in Communication Complexity and Fine-Grained Complexity.
 
 ___
 
