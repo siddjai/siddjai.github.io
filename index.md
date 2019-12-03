@@ -62,7 +62,7 @@ ___
 ## Experience
 
 ### 2019
-### Mathematics for Quantum Computation
+### Mathematics of Quantum Computation
 #### IIAS Winter School | Hebrew University of Jerusalem
 Accepted to the [4th CSE Winter School](http://ias.huji.ac.il/SchoolCSE4).
 
