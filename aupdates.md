@@ -3,6 +3,9 @@ title: Updates
 layout: page
 ---
 
+## Papers
+- Inapproximability of Additive Weak Contraction under SSEH and Strong UGC, [Preprint](https://arxiv.org/abs/1912.00143)
+
 ## News 
 
 - (15 Jul 19) After a pit stop in Delhi, reached [IISc, Bangalore](https://www.iisc.ac.in/) to attend the [IFCAM Summer School](http://math.iisc.ac.in/~ifcam/Summer_School2019.htm).
