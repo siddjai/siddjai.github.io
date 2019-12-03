@@ -62,6 +62,10 @@ ___
 ## Experience
 
 ### 2019
+### Mathematics for Quantum Computation
+#### IIAS Winter School | Hebrew University of Jerusalem
+Accepted to the [4th CSE Winter School](http://ias.huji.ac.il/SchoolCSE4).
+
 ### Research Intern
 #### Prof Bundit Laekhanukit | ITCS@SUFE
 Visited Shanghai in the summer, hosted by [Prof Bundit](http://itcs.shufe.edu.cn/~blaekh/). 
