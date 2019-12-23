@@ -8,6 +8,7 @@ layout: page
 
 ## News 
 
+- (14 Dec 19) Excited to be in Jerusalem for the [IIAS Winter School](https://iias.huji.ac.il/SchoolCSE4)!
 - (15 Jul 19) After a pit stop in Delhi, reached [IISc, Bangalore](https://www.iisc.ac.in/) to attend the [IFCAM Summer School](http://math.iisc.ac.in/~ifcam/Summer_School2019.htm).
 - (18 Jun 19) Excited to attend [Shanghai Theory Day](http://itcs.shufe.edu.cn/shanghai-theory-day-2019/)!
 - (15 May 19) Started my internship at [ITCS@SUFE](http://itcs.shufe.edu.cn/) with [Prof Bundit Laekhanukit](http://itcs.shufe.edu.cn/~blaekh/).
