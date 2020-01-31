@@ -97,6 +97,11 @@ ___
 
 Notable Courses
 ------
+ - Combinatorial Optimisation
+ - Approx Algorithms
+ - Advanced Linear Algebra
+ - Intro to Quantum Computing
+ - Statistical Inference
  - Randomised Algorithms (A-) 
  - Complexity Theory (A) ([Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/))
  - Modern Algorithm Design (A) ([Website](https://sites.google.com/a/iiitd.ac.in/mad18/home))
