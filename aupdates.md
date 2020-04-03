@@ -23,3 +23,7 @@ layout: page
 - (15 Mar 19) Razborov-Smolensky method and a standard application, [Theory Talks](https://www.reddit.com/r/mathiiitd/wiki/eventhistory), IIIT-Delhi
 - (11, 23 Mar 19) Online Bipartite Matching, [Argh!](https://sites.google.com/iiitd.ac.in/argh), IIIT-Delhi
 - (29 Aug 18) Pattern Matching in Permutations, [Theory Talks](https://www.reddit.com/r/mathiiitd/wiki/eventhistory), IIIT-Delhi
+
+## Writeups
+
+- Query complexity puzzle during a pandemic, [link](https://drive.google.com/file/d/1a4x7G_w91h3TBo1huDN8jw9tz4uP3ADu/view?usp=sharing)
