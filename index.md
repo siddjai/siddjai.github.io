@@ -28,12 +28,13 @@ ___
 
 Projects
 ------
+### Clustering
+#### Karthik CS, Vincent Cohen-Addad
+
+
 ### Algorithms for Big Data
 #### Prof Rajiv Raman | Independent Study
 I am studying Streaming/Sketching algorithms from various sources and presenting to Prof Rajiv and some of my peers. I am also [compiling notes](https://drive.google.com/open?id=1WHWdqLdrVjDy0QJN4MpkjOJpQUcEhGRt) on what I present.
-
-### Online Matching
-#### Prof Syamantak Das | Independent Project
 
 ### Argh!
 #### Algorithms Reading Group Hour
@@ -97,11 +98,8 @@ ___
 
 Notable Courses
 ------
- - Combinatorial Optimisation
  - Approx Algorithms ([Website](https://sites.google.com/iiitd.ac.in/aag20/home))
- - Advanced Linear Algebra
  - Intro to Quantum Computing ([Website](https://sites.google.com/a/iiitd.ac.in/cse622-w20/))
- - Statistical Inference
  - Randomised Algorithms (A-) 
  - Complexity Theory (A) ([Website](https://sites.google.com/a/iiitd.ac.in/cse621m18/))
  - Modern Algorithm Design (A) ([Website](https://sites.google.com/a/iiitd.ac.in/mad18/home))
