@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Research</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
@@ -57,55 +57,107 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <!-- Research-->
+            <section class="resume-section" id="publications">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Papers</h3>
-                            <div class="subheading mb-3">Full list at <a href="https://dblp.org/pid/81/8212-2.html">dblp</a> and <a href="https://scholar.google.com/citations?user=XMEvZfsAAAAJ&hl=en">GScholar</a></div>
-                            <p><span style="font-weight: bold; color: #353A3F;">Unambiguous DNFs and Alon-Saks-Seymour</span> with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, Kaspars Balodis, <a href="https://cs.uwaterloo.ca/people-profiles/shalev-ben-david">Shalev Ben-David</a>, <a href="http://www.robinkothari.com/">Robin Kothari</a>.<br>
-                                [<b>FOCS 2021</b>] [<a href="https://eccc.weizmann.ac.il/report/2021/016/#revision1">ECCC</a>] [<a href="https://arxiv.org/abs/2102.08348">arXiv</a>]<br> 
-                                Invited to SICOMP Special Issue
+                    <h2 class="mb-5">Publications</h2>
+                    <div class="subheading mb-3">Author order is arbitrary | <a href="https://scholar.google.com/citations?user=XMEvZfsAAAAJ&hl=en">GScholar</a></div>
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2021/016/#revision1" style="text-decoration: none"><h4 class="mb-0">Unambiguous DNFs and Alon-Saks-Seymour</h4></a>
+                            <div class="subsubheading mb-0">with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, Kaspars Balodis,
+                                <a href="https://cs.uwaterloo.ca/people-profiles/shalev-ben-david">Shalev Ben-David</a>, <a href="http://www.robinkothari.com/">Robin Kothari</a></div>
+                            <div class="subsubheading mb-0"><b>FOCS 2021</b> <span class="badge badge-success badge-pill">Invited to SICOMP Special Issue</span> <br>
                                 <details><summary>Abstract</summary> We exhibit an unambiguous k-DNF formula that requires CNF width almost k^2, which is optimal up to logarithmic factors.
                                     As a consequence, we get a near-optimal solution to the Alon--Saks--Seymour problem in graph theory (posed in 1991), which asks: How large a gap can there
                                     be between the chromatic number of a graph and its biclique partition number? Our result is also known to imply several other improved separations in
                                     query and communication complexity.</details>
-                            </p>
-                            <p><span style="font-weight: bold; color: #353A3F;">Further Collapses in TFNP</span> with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://gilbert.maystre.ch/">Gilbert Maystre</a>, <a href="https://www.asc.ox.ac.uk/person/dr-alexandros-hollender">Alexandros Hollender</a>, <a href="https://www.cs.mcgill.ca/~robere/">Robert Robere</a>, Ran Tao, William Pires.<br>
-                                [<i>In submission</i>] [<a href="https://eccc.weizmann.ac.il/report/2022/018/">ECCC</a>] [<a href="https://arxiv.org/abs/2202.07761">arXiv</a>]
+                            
+                            </div>
+                        </div>
+                        <div class="resume-date text-md-end">
+                            <span class="text-primary">
+                                <a href="https://eccc.weizmann.ac.il/report/2021/016/#revision1">[eccc]</a><br>
+                                <a href="https://arxiv.org/abs/2102.08348">[arXiv]</a></span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2022/018/" style="text-decoration: none"><h4 class="mb-0">Further Collapses in TFNP</h4></a>
+                            <div class="subsubheading mb-0">with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://gilbert.maystre.ch/">Gilbert Maystre</a>, <a href="https://www.asc.ox.ac.uk/person/dr-alexandros-hollender">Alexandros Hollender</a>,
+                                <a href="https://www.cs.mcgill.ca/~robere/">Robert Robere</a>, Ran Tao, William Pires</div>
+                            <div class="subsubheading mb-0"><i>In submission</i><br>
                                 <details><summary>Abstract</summary> We show EOPL = PLS intersect PPAD. Here the class EOPL consists of all total search problems that reduce to the
                                     End-of-Potential-Line problem, which was introduced in the works by Hubacek and Yogev (SODA 2017) and
                                     Fearnley et al. (JCSS 2020). In particular, our result yields a new simpler proof of the breakthrough collapse CLS = PLS intersect PPAD
                                     by Fearnley et al. (STOC 2021). We also prove a companion result SOPL = PLS intersect PPADS, where SOPL is the class associated
                                     with the Sink-of-Potential-Line problem.
                                 </details>
-                            </p>
-                            <p><span style="font-weight: bold; color: #353A3F;">Resolution, Sherali-Adams, and TFNP</span> with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://gilbert.maystre.ch/">Gilbert Maystre</a>, <a href="https://www.asc.ox.ac.uk/person/dr-alexandros-hollender">Alexandros Hollender</a>, <a href="https://www.cs.mcgill.ca/~robere/">Robert Robere</a>, Ran Tao, William Pires.<br>
-                                [<i>In preparation</i>]
-                            </p>
-                            <p><span style="font-weight: bold; color: #353A3F;">Communication Complexity of Collision</span> with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>.<br>
-                                [<i>In preparation</i>]
+                            
+                            </div>
+                        </div>
+                        <div class="resume-date text-md-end">
+                            <span class="text-primary">
+                                <a href="https://eccc.weizmann.ac.il/report/2022/018/">[eccc]</a><br>
+                                <a href="https://arxiv.org/abs/2202.07761">[arXiv]</a></span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2022/018/" style="text-decoration: none"><h4 class="mb-0">Separations in Proof Complexity and TFNP</h4></a>
+                            <div class="subsubheading mb-0">with <a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://gilbert.maystre.ch/">Gilbert Maystre</a>, <a href="https://www.asc.ox.ac.uk/person/dr-alexandros-hollender">Alexandros Hollender</a>,
+                                <a href="https://www.cs.mcgill.ca/~robere/">Robert Robere</a>, Ran Tao, William Pires</div>
+                            <div class="subsubheading mb-0"><i>In preparation</i><br>
+                                <details><summary>Abstract</summary> It is well-known that Resolution proofs can be efficiently simulated by Sherali-Adams (SA) proofs. 
+                                    We show, however, that any such simulation needs to exploit huge coefficients: Resolution cannot be efficiently simulated by SA when the coefficients are written in unary. 
+                                    We also show that <i>reversible Resolution</i> cannot be efficiently simulated by Nullstellensatz (NS) over the reals. <br>
+        
+                                    These two separations can be interpreted in the language of total NP search problems. Indeed, we show that PPADS, PPAD, SOPL are captured by unary SA, unary NS, and reversible Resolution, respectively. Consequently, relative to an oracle,  PLS \not\subseteq PPADS and SOPL \not\subseteq\ PPAD.
+                                </details>
+                            
+                            </div>
+                        </div>
+                        <!-- <div class="resume-date text-md-end">
+                            <span class="text-primary">
+                                <a href="https://eccc.weizmann.ac.il/report/2022/018/">[eccc]</a><br>
+                                <a href="https://arxiv.org/abs/2202.07761">[arXiv]</a></span>
+                        </div> -->
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="" style="text-decoration: none"><h4 class="mb-0">Communication Complexity of Collision</h4></a>
+                            <div class="subsubheading mb-0">with <a href="https://theory.epfl.ch/mika/">Mika Göös</a></div>
+                            <div class="subsubheading mb-0"><i>In preparation</i><br>
                                 <details><summary>Abstract</summary> We prove a polynomial lower bound on the randomised communication complexity for a natural version of the Collision problem
                                     in the two-party setting, which we call SplitCollision. As an application, we show that the proof system of tree-like Resolution over linear equations requires
                                     exponential size to prove the Weak Pigeonhole Principle.
                                 </details>
-                            </p>
+                            
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">updated February 2022</span></div>
+                        <!-- <div class="resume-date text-md-end">
+                            <span class="text-primary">
+                                <a href="https://eccc.weizmann.ac.il/report/2022/018/">[eccc]</a><br>
+                                <a href="https://arxiv.org/abs/2202.07761">[arXiv]</a></span>
+                        </div> -->
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Other Projects</h3>
-                            <!-- <div class="subheading mb-3">Public code on <a href="https://github.com/siddjai">Github</a> profile</div> -->
-                            <p><span style="font-weight: bold; color: #353A3F;">Unsupervised Preprocessing for Clustering</span> with Shay Ben-Elazar, <a href='https://www.di.ens.fr/~vcohen/'>Vincent Cohen-Addad</a>, <a href='http://karthikcs.org'>Karthik CS</a>.</p>
-                            <p><span style="font-weight: bold; color: #353A3F;">Graph compression</span>, Research Internship with <a href="http://itcs.sufe.edu.cn/~blaekh/">Bundit Laekhanukit</a>.</p>
-                            <p><span style="font-weight: bold; color: #353A3F;">MISR & Pattern Avoidance in Permutations</span>, Bachelor Thesis at IIIT-Delhi
-                            advised by <a href="https://www.iiitd.ac.in/rajiv">Rajiv Raman</a>, <a href="https://sites.google.com/site/samrithram/">Samrith Ram</a>.</p>
-                        </div>
+
+                    <h3 class="mb-3">Other Projects</h3>
+                    <div class="resume-content">
+                        <p><span style="font-weight: bold; color: #353A3F;">Unsupervised Preprocessing for Clustering</span> with Shay Ben-Elazar, <a href='https://www.di.ens.fr/~vcohen/'>Vincent Cohen-Addad</a>, <a href='http://karthikcs.org'>Karthik CS</a>.</p>
+                        <p><span style="font-weight: bold; color: #353A3F;">Graph compression</span>, Research Internship with <a href="http://itcs.sufe.edu.cn/~blaekh/">Bundit Laekhanukit</a>.</p>
+                        <p><span style="font-weight: bold; color: #353A3F;">MISR & Pattern Avoidance in Permutations</span>, Bachelor Thesis at IIIT-Delhi
+                        advised by <a href="https://www.iiitd.ac.in/rajiv">Rajiv Raman</a>, <a href="https://sites.google.com/site/samrithram/">Samrith Ram</a>.</p>
                     </div>
-                </div>
+
+
+                    
+
+      </div>
+
             </section>
             <hr class="m-0" />
             <!-- Education-->
@@ -140,98 +192,99 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <!-- <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" /> -->
-            <!-- Interests-->
-            <!-- <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>When I need a break from Math and CS (or am told I do), I take photos, read a book and <a href="https://sites.google.com/view/tirade-siddhartha/home">write sometimes</a>. I also play badminton, and am enthusiastic about loads of other sports.</p>
-                    <p class="mb-0">I have spent considerable time reading fantasy fiction books and have been certifiably obsessed with Brandon Sanderson's <a href="https://www.brandonsanderson.com/books-and-art/#cosmere">Cosmere</a> in the past. I also have an unhealthy obsesion with an unlikely band/artist duo of <a href="https://www.youtube.com/watch?v=b_jj9r4b5i4">Radiohead</a> and <a href="https://www.youtube.com/watch?v=ZcDxk9CSTo8">Hozier</a>.</p>
-                </div>
-            </section>
-            <hr class="m-0" /> -->
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Honors</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="far fa-dot-circle"></i></span>
-                            MSc Research Scholar
-                            <div class="subheading mb-3"><span style="font-weight: bold; color: #ff0000;">EPFL</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="far fa-dot-circle"></i></span>
-                            Graduation with Honors
-                            <div class="subheading mb-3">IIIT-Delhi</div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="far fa-dot-circle"></i></span>
-                            Scholar, <a href="https://iias.huji.ac.il/SchoolCSE4">Mathematics of Quantum Computation</a>
-                            <div class="subheading mb-3">Israel Institute for Advanced Studies</div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="far fa-dot-circle"></i></span>
-                            Scholar, <a href="http://math.iisc.ac.in/~ifcam/Summer_School2019.htm">Mathematics for Data Science</a>
-                            <div class="subheading mb-3">Indian Institute of Science</div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="far fa-dot-circle"></i></span>
-                            Scholar, Graph Theory & Graph Algorithms
-                            <div class="subheading mb-3">Indian Institute of Technology, Gandhinagar</div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+                <hr class="m-0" />
+                <!-- Skills-->
+                <!-- <section class="resume-section" id="skills">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Skills</h2>
+                        <div class="subheading mb-3">Programming Languages & Tools</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        </ul>
+                        <div class="subheading mb-3">Workflow</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Mobile-First, Responsive Design
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Cross Browser Testing & Debugging
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Cross Functional Teams
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Agile Development & Scrum
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <hr class="m-0" /> -->
+                <!-- Interests-->
+                <!-- <section class="resume-section" id="interests">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Interests</h2>
+                        <p>When I need a break from Math and CS (or am told I do), I take photos, read a book and <a href="https://sites.google.com/view/tirade-siddhartha/home">write sometimes</a>. I also play badminton, and am enthusiastic about loads of other sports.</p>
+                        <p class="mb-0">I have spent considerable time reading fantasy fiction books and have been certifiably obsessed with Brandon Sanderson's <a href="https://www.brandonsanderson.com/books-and-art/#cosmere">Cosmere</a> in the past. I also have an unhealthy obsesion with an unlikely band/artist duo of <a href="https://www.youtube.com/watch?v=b_jj9r4b5i4">Radiohead</a> and <a href="https://www.youtube.com/watch?v=ZcDxk9CSTo8">Hozier</a>.</p>
+                    </div>
+                </section>
+                <hr class="m-0" /> -->
+                <!-- Awards-->
+                <section class="resume-section" id="awards">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Awards & Honors</h2>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="far fa-dot-circle"></i></span>
+                                MSc Research Scholar
+                                <div class="subheading mb-3"><span style="font-weight: bold; color: #ff0000;">EPFL</span></div>
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="far fa-dot-circle"></i></span>
+                                Graduation with Honors
+                                <div class="subheading mb-3">IIIT-Delhi</div>
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="far fa-dot-circle"></i></span>
+                                Scholar, <a href="https://iias.huji.ac.il/SchoolCSE4">Mathematics of Quantum Computation</a>
+                                <div class="subheading mb-3">Israel Institute for Advanced Studies</div>
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="far fa-dot-circle"></i></span>
+                                Scholar, <a href="http://math.iisc.ac.in/~ifcam/Summer_School2019.htm">Mathematics for Data Science</a>
+                                <div class="subheading mb-3">Indian Institute of Science</div>
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="far fa-dot-circle"></i></span>
+                                Scholar, Graph Theory & Graph Algorithms
+                                <div class="subheading mb-3">Indian Institute of Technology, Gandhinagar</div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <!-- Bootstrap core JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+            <!-- Third party plugin JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+            <!-- {% include text-expand.html %}-->
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- {% include text-expand.html %}-->
     </body>
 </html>
