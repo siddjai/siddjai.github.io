@@ -72,7 +72,11 @@
                     <h2 class="mb-5">Papers</h2>
                     <div class="subheading mb-3"> <a href="https://scholar.google.com/citations?user=XMEvZfsAAAAJ&hl=en">GScholar</a></div>
                     <p>
-                        <details><summary>What is TFNP?</summary>TFNP (Total Function NP) is the complexity class of NP search problems which always have a solution. It is a search problem, which means that you recieve an input x and you want to find one of many
+                        <details><summary>What is TFNP?</summary>TFNP has been studied since the 90s [<a href="https://www.sciencedirect.com/science/article/pii/S0022000005800637">Pap94</a>] as a framework to classify NP-intermediate problems: problems
+                            which are not NP-hard but also not believed to be in P. Given that we believe quantum computers cannot solve NP-hard problems [<a href="https://epubs.siam.org/doi/abs/10.1137/S0097539796300933">BBBV97</a>], NP-intermediate
+                            problems are a prime candidate for finding useful quantum advantage.<br>
+                            
+                            Formally, TFNP (Total Function NP) is the complexity class of NP search problems which always have a solution. It is a search problem, which means that you recieve an input x and you want to find one of many
                             possible y such that (x,y) is a valid input-solution pair. It is in NP which means that checking that (x,y) can be done efficiently. Finally, it is total which means that given any x you are certain that there is some y
                             such that (x,y) is a valid input-solution pair.
                         </details>
@@ -167,7 +171,7 @@
                                     a complete picture of the black-box relationships between the classical TFNP classes introduced in the 1990s.
                                 </details>
                                 <details><summary>Summary (for non-specialists)</summary>Is every problem solvable by <a href="https://en.wikipedia.org/wiki/Local_search_(optimization)">local search</a> also solvable by <a href="https://en.wikipedia.org/wiki/Collision_attack">collision-finding</a>?
-                                    We prove that the answer to this question is no, in the formalization of this question in the world of TFNP.<br>
+                                    We prove that the answer to this question is no, within the formalization of TFNP.<br>
                                     
                                     To formalize this, <a href="https://en.wikipedia.org/wiki/PLS_(complexity)">PLS</a> is the class of problems which can be solved using local search.
                                     <a href="https://en.wikipedia.org/wiki/PPP_(complexity)#:~:text=Hence%2C%20PPP%20is%20the%20complexity,cryptographic%20primitives%2C%20and%20vice%20versa.">PPP</a> is the class of problems
@@ -209,7 +213,7 @@
                                     Problems which can be solved using <a href="https://en.wikipedia.org/wiki/Local_search_(optimization)">local search</a> can be formalized to be in the complexity class <a href="https://en.wikipedia.org/wiki/PLS_(complexity)">PLS</a>. Similarly,
                                     <a href="https://en.wikipedia.org/wiki/PPAD_(complexity)">PPAD</a> is the class of problems which have a solution due to a parity argument, and famously the problem of computing a <a href="https://en.wikipedia.org/wiki/Nash_equilibrium">Nash Equillibirum</a> is complete for this class. We show that
                                         a problem called End-of-Potential-Line is complete for their intersection: problem A reduces to EOPL if and only if it lies in both PLS and PPAD. As a corollary of this work, we give a simple combinatorial proof of the fact the the class CLS
-                                        (problems which can be solved using <a href="https://en.wikipedia.org/wiki/Gradient_descent">gradient descent</a>) is also equal to ths intersection.</a></details>
+                                        (problems which can be solved using <a href="https://en.wikipedia.org/wiki/Gradient_descent">gradient descent</a>) is also equal to this intersection.</a></details>
                                 
                             </div>
                         </div>
@@ -263,7 +267,7 @@
                                     Moreover, the quantum protocol is computationally efficient and its solutions are classically verifiable, that is, the problem lies in the communication analogue of the class TFNP. Our problem is a bipartite version of a query
                                     complexity problem recently introduced by Yamakawa and Zhandry (JACM 2024). We prove the classical lower bound using the structure-vs-randomness paradigm for analyzing communication protocols.
                                 </details>
-                                <details><summary>Summary (for non-specialists)</summary> We demonstrate a communication problem where in the quantum setting, it can be solved by using a few hundred <a href="https://en.wikipedia.org/wiki/Qubit">qubits</a>. Yet we prove that classically, any protocol must communicate
+                                <details><summary>Summary (for non-specialists)</summary> We demonstrate a communication problem which can be solved in the quantum setting by using a few hundred <a href="https://en.wikipedia.org/wiki/Qubit">qubits</a>. Yet we prove that classically, any protocol must communicate
                                     more bits than there are atoms in the observable universe. <br>
 
                                     In communication complexity, Alice and Bob recieve inputs x and y and they want to compute a known function which depends on both x and y while communicating as few (qu)bits as possible. Simulatenous message passing (SMP) is a very restricted form of
