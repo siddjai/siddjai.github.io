@@ -83,9 +83,52 @@
                         <details><summary>Credit</summary>Authors are listed in alphabetical order in last name for most papers, which is standard in <a href="https://www.ams.org/learning-careers/leaders/CultureStatement04.pdf">mathematics</a> and theoretical computer science. Papers marked with an asterisk (*) use contribution order,
                             which is standard in physics and applied areas of computer science.</details>
                     </p>
-                        
 
-                    <h3 class="mb-5">Publications</h3>
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2024/172/" style="text-decoration: none"><h4 class="mb-0">Quantum Communication Advantage in TFNP</h4></a>
+                            <div class="subsubheading mb-0"><a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://www.cst.cam.ac.uk/people/tg508">Tom Gur</a>, <b>Siddhartha Jain</b>, <a href="https://www.cs.utexas.edu/~davidlee/">Jiawei Li</a></div>
+                            <div class="subsubheading mb-0"><b>QIP 2025</b><br>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                    <a href="https://eccc.weizmann.ac.il/report/2024/172/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
+                                    <a href="https://arxiv.org/abs/2411.03296" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
+                                    <a href="assets/Quantum_Communication_Advantage_TFNP.pdf" class="btn btn-secondary" role="button" aria-pressed="true">slides</a>
+                                </div>
+                                <details><summary>Abstract</summary> We exhibit a total search problem whose communication complexity in the quantum SMP (simultaneous message passing) model is exponentially smaller than in the classical two-way randomized model.
+                                    Moreover, the quantum protocol is computationally efficient and its solutions are classically verifiable, that is, the problem lies in the communication analogue of the class TFNP. Our problem is a bipartite version of a query
+                                    complexity problem recently introduced by Yamakawa and Zhandry (JACM 2024). We prove the classical lower bound using the structure-vs-randomness paradigm for analyzing communication protocols.
+                                </details>
+                                <details><summary>Summary (for non-specialists)</summary> We demonstrate a communication problem which can be solved in the quantum setting by using a few hundred <a href="https://en.wikipedia.org/wiki/Qubit">qubits</a>. Yet we prove that classically, any protocol must communicate
+                                    more bits than there are atoms in the observable universe. <br>
+
+                                    In communication complexity, Alice and Bob recieve inputs x and y and they want to compute a known function which depends on both x and y while communicating as few (qu)bits as possible. Simulatenous message passing (SMP) is a very restricted form of
+                                    communication where they are not allowed to interact with each other at all and just send a single message to a referee who computes the answer. Our protocol works in the quanutm SMP model, and we prove a lower bound in the vanilla model of classical communication
+                                    where there are no restrictions placed on Alice and Bob. A crucial feature of our result is also that our problem is total: any string of the required length is allowed as input. This differs from most instances of quantum advantage that we know, since we often need to
+                                    promise that our input comes from special sets which allow the quantum computer to solve it efficiently.
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2024/144" style="text-decoration: none"><h4 class="mb-0">Consumable Data via Quantum Communication</h4></a>
+                            <div class="subsubheading mb-0">*<a href="https://scholar.google.com/citations?user=L_BI2KkAAAAJ&hl=en">Dar Gilboa</a>, <b>Siddhartha Jain</b>, <a href="https://scholar.google.com/citations?user=yVy2ZIwAAAAJ&hl=en">Jarrod McClean</a></div>
+                            <div class="subsubheading mb-0"><b>ICML 2024</b> Workshop on Agentic Markets<br>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="https://eccc.weizmann.ac.il/report/2024/144" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
+                                <a href="https://arxiv.org/abs/2409.08495" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
+                            </div>
+                                <details><summary>Abstract</summary> Classical data can be copied and re-used for computation, with adverse consequences economically and in terms of data privacy. Motivated by this, we formulate problems in one-way
+                                    communication complexity where Alice holds some data and Bob holds m inputs, and he wants to compute m instances of a bipartite relation on Alice's data and each of his inputs. We call this the asymmetric direct
+                                    sum question for one-way communication. We give a number of examples where the quantum communication complexity of such problems scales polynomially with m, while the classical communication complexity depends at
+                                    most logarithmically on m. For these examples, data behaves like a consumable resource when the owner stores and transmits it as quantum states. We show an application to a strategic data-selling game, and discuss
+                                    other potential economic implications.
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="resume-content">
                             <a href="https://eccc.weizmann.ac.il/report/2024/017" style="text-decoration: none"><h4 class="mb-0">On Pigeonhole Principles and Ramsey in TFNP</h4></a>
@@ -114,6 +157,22 @@
                                     the search problem corresponding to the pigeonhole principle. We show that there is no black-box reduction from RAMSEY to PIGEON: finding a clique or independent set does not reduce to finding a collision.
                                     On the way to proving this, we define new problems corresponding to the generalized pigeonhole principle: if tn + 1 pigeons are put
                                     into n holes, some hole must have t+1 pigeons. We prove a structure theorem about these problems and study its relation to cryptography.</details>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2023/154" style="text-decoration: none"><h4 class="mb-0">On the Rational Degree of Boolean Functions and Applications</h4></a>
+                            <div class="subsubheading mb-0"><a href=https://vishnuiyer.org>Vishnu Iyer</a>, <b>Siddhartha Jain</b>, <a href="/index.html">Matt Kovacs-Deak</a>, <a href="http://www.robinkothari.com/">Robin Kothari</a>, <a href="https://v-m-kumar.github.io">Vinayak M. Kumar</a>, <a href="http://lukeschaeffer.com">Luke Schaeffer</a>, <a href="https://wdaochen.com">Daochen Wang</a>, <a href="https://mwhitmeyer.github.io">Michael Whitmeyer</a></div>
+                            <div class="subsubheading mb-0"><b>Manuscript</b><br>
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <a href="https://eccc.weizmann.ac.il/report/2023/154" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
+                                    <a href="https://arxiv.org/abs/2310.08004" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
+                                </div>
+                                <details><summary>Abstract</summary> We study a natural complexity measure of Boolean functions known as the (exact) rational degree. For total functions f, it is conjectured that rdeg(f) is polynomially related to deg(f), where deg(f) is the Fourier degree. Towards this conjecture, we show that symmetric functions have rational degree at least deg(f)/2 and monotone functions have rational degree at least \sqrt{deg(f)}. We observe that both of these lower bounds are tight. In addition, we show that all read-once depth-d Boolean formulae have rational degree at least Ω(deg(f)1/d). Furthermore, we show that almost every Boolean function on n variables has rational degree at least n/2 - O(\sqrt{n}).
+                                    In contrast to total functions, we exhibit partial functions that witness unbounded separations between rational and approximate degree, in both directions. As a consequence, we show that for quantum computers, post-selection and bounded-error are incomparable resources in the black-box model.
+                                </details>
                             </div>
                         </div>
                     </div>
@@ -252,72 +311,7 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <h3 class="mb-5">Manuscripts</h3>
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
-                            <a href="https://eccc.weizmann.ac.il/report/2024/172/" style="text-decoration: none"><h4 class="mb-0">Quantum Communication Advantage in TFNP</h4></a>
-                            <div class="subsubheading mb-0"><a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://www.cst.cam.ac.uk/people/tg508">Tom Gur</a>, <b>Siddhartha Jain</b>, <a href="https://www.cs.utexas.edu/~davidlee/">Jiawei Li</a></div>
-                            <div class="subsubheading mb-0">Preprint<br>
-                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                    <a href="https://eccc.weizmann.ac.il/report/2024/172/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
-                                    <a href="https://arxiv.org/abs/2411.03296" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
-                                    <a href="assets/Quantum_Communication_Advantage_TFNP.pdf" class="btn btn-secondary" role="button" aria-pressed="true">slides</a>
-                                </div>
-                                <details><summary>Abstract</summary> We exhibit a total search problem whose communication complexity in the quantum SMP (simultaneous message passing) model is exponentially smaller than in the classical two-way randomized model.
-                                    Moreover, the quantum protocol is computationally efficient and its solutions are classically verifiable, that is, the problem lies in the communication analogue of the class TFNP. Our problem is a bipartite version of a query
-                                    complexity problem recently introduced by Yamakawa and Zhandry (JACM 2024). We prove the classical lower bound using the structure-vs-randomness paradigm for analyzing communication protocols.
-                                </details>
-                                <details><summary>Summary (for non-specialists)</summary> We demonstrate a communication problem which can be solved in the quantum setting by using a few hundred <a href="https://en.wikipedia.org/wiki/Qubit">qubits</a>. Yet we prove that classically, any protocol must communicate
-                                    more bits than there are atoms in the observable universe. <br>
-
-                                    In communication complexity, Alice and Bob recieve inputs x and y and they want to compute a known function which depends on both x and y while communicating as few (qu)bits as possible. Simulatenous message passing (SMP) is a very restricted form of
-                                    communication where they are not allowed to interact with each other at all and just send a single message to a referee who computes the answer. Our protocol works in the quanutm SMP model, and we prove a lower bound in the vanilla model of classical communication
-                                    where there are no restrictions placed on Alice and Bob. A crucial feature of our result is also that our problem is total: any string of the required length is allowed as input. This differs from most instances of quantum advantage that we know, since we often need to
-                                    promise that our input comes from special sets which allow the quantum computer to solve it efficiently.
-                                </details>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
-                            <a href="https://eccc.weizmann.ac.il/report/2024/144" style="text-decoration: none"><h4 class="mb-0">Consumable Data via Quantum Communication</h4></a>
-                            <div class="subsubheading mb-0">*<a href="https://scholar.google.com/citations?user=L_BI2KkAAAAJ&hl=en">Dar Gilboa</a>, <b>Siddhartha Jain</b>, <a href="https://scholar.google.com/citations?user=yVy2ZIwAAAAJ&hl=en">Jarrod McClean</a></div>
-                            <div class="subsubheading mb-0"><b>ICML 2024</b> Workshop on Agentic Markets<br>
-                            <div class="btn-group btn-group-sm" role="group">
-                                <a href="https://eccc.weizmann.ac.il/report/2024/144" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
-                                <a href="https://arxiv.org/abs/2409.08495" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
-                            </div>
-                                <details><summary>Abstract</summary> Classical data can be copied and re-used for computation, with adverse consequences economically and in terms of data privacy. Motivated by this, we formulate problems in one-way
-                                    communication complexity where Alice holds some data and Bob holds m inputs, and he wants to compute m instances of a bipartite relation on Alice's data and each of his inputs. We call this the asymmetric direct
-                                    sum question for one-way communication. We give a number of examples where the quantum communication complexity of such problems scales polynomially with m, while the classical communication complexity depends at
-                                    most logarithmically on m. For these examples, data behaves like a consumable resource when the owner stores and transmits it as quantum states. We show an application to a strategic data-selling game, and discuss
-                                    other potential economic implications.
-                                </details>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
-                            <a href="https://eccc.weizmann.ac.il/report/2023/154" style="text-decoration: none"><h4 class="mb-0">On the Rational Degree of Boolean Functions and Applications</h4></a>
-                            <div class="subsubheading mb-0"><a href=https://vishnuiyer.org>Vishnu Iyer</a>, <b>Siddhartha Jain</b>, <a href="/index.html">Matt Kovacs-Deak</a>, <a href="http://www.robinkothari.com/">Robin Kothari</a>, <a href="https://v-m-kumar.github.io">Vinayak M. Kumar</a>, <a href="http://lukeschaeffer.com">Luke Schaeffer</a>, <a href="https://wdaochen.com">Daochen Wang</a>, <a href="https://mwhitmeyer.github.io">Michael Whitmeyer</a></div>
-                            <div class="subsubheading mb-0"><b>Manuscript</b><br>
-                                <div class="btn-group btn-group-sm" role="group">
-                                    <a href="https://eccc.weizmann.ac.il/report/2023/154" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
-                                    <a href="https://arxiv.org/abs/2310.08004" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
-                                </div>
-                                <details><summary>Abstract</summary> We study a natural complexity measure of Boolean functions known as the (exact) rational degree. For total functions f, it is conjectured that rdeg(f) is polynomially related to deg(f), where deg(f) is the Fourier degree. Towards this conjecture, we show that symmetric functions have rational degree at least deg(f)/2 and monotone functions have rational degree at least \sqrt{deg(f)}. We observe that both of these lower bounds are tight. In addition, we show that all read-once depth-d Boolean formulae have rational degree at least Ω(deg(f)1/d). Furthermore, we show that almost every Boolean function on n variables has rational degree at least n/2 - O(\sqrt{n}).
-                                    In contrast to total functions, we exhibit partial functions that witness unbounded separations between rational and approximate degree, in both directions. As a consequence, we show that for quantum computers, post-selection and bounded-error are incomparable resources in the black-box model.
-                                </details>
-                            </div>
-                        </div>
-                    </div>
+                
                     <!-- <h3 class="mb-3">Other Projects</h3>
                     <div class="resume-content">
                         <p><span style="font-weight: bold; color: #353A3F;">Unsupervised Preprocessing for Clustering</span> with Shay Ben-Elazar, <a href='https://www.di.ens.fr/~vcohen/'>Vincent Cohen-Addad</a>, <a href='http://karthikcs.org'>Karthik CS</a>.</p>
