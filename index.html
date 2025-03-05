@@ -94,17 +94,15 @@
                                     <a href="https://arxiv.org/abs/2411.03296" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
                                     <a href="assets/Quantum_Communication_Advantage_TFNP.pdf" class="btn btn-secondary" role="button" aria-pressed="true">slides</a>
                                 </div>
-                                <details><summary>Abstract</summary> We exhibit a total search problem whose communication complexity in the quantum SMP (simultaneous message passing) model is exponentially smaller than in the classical two-way randomized model.
-                                    Moreover, the quantum protocol is computationally efficient and its solutions are classically verifiable, that is, the problem lies in the communication analogue of the class TFNP. Our problem is a bipartite version of a query
-                                    complexity problem recently introduced by Yamakawa and Zhandry (JACM 2024). We prove the classical lower bound using the structure-vs-randomness paradigm for analyzing communication protocols.
+                                <details><summary>Abstract</summary> We exhibit a total search problem with classically verifiable solutions whose communication complexity in the quantum SMP model is exponentially smaller than in the classical two-way randomized model.
+                                    Our problem is a bipartite version of a query complexity problem recently introduced by Yamakawa and Zhandry (JACM 2024). We prove the classical lower bound using the structure-vs-randomness paradigm for analyzing communication protocols.
                                 </details>
                                 <details><summary>Summary (for non-specialists)</summary> We demonstrate a communication problem which can be solved in the quantum setting by using a few hundred <a href="https://en.wikipedia.org/wiki/Qubit#Qudits_and_qutrits">qudits</a>. Yet we prove that classically, any protocol must communicate
                                     more bits than there are atoms in the observable universe. <br>
 
                                     In communication complexity, Alice and Bob recieve inputs x and y and they want to compute a known function which depends on both x and y while communicating as few (qu)bits as possible. Simulatenous message passing (SMP) is a very restricted form of
                                     communication where they are not allowed to interact with each other at all and just send a single message to a referee who computes the answer. Our protocol works in the quanutm SMP model, and we prove a lower bound in the vanilla model of classical communication
-                                    where there are no restrictions placed on Alice and Bob. A crucial feature of our result is also that our problem is total: any string of the required length is allowed as input. This differs from most instances of quantum advantage that we know, since we often need to
-                                    promise that our input comes from special sets which allow the quantum computer to solve it efficiently.
+                                    where there are no restrictions placed on Alice and Bob. A crucial feature of our result is also that our problem is classically verifiable, so even if the quantum communication & computation is untrusted the final output can be checked efficiently.
                                 </details>
                             </div>
                         </div>
