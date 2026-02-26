@@ -140,7 +140,9 @@
                             which is standard in physics and applied areas of computer science.</details>
                     </p>
 
-                    <ol reversed start="12">
+                    <h3 class="mb-3">Quantum computing</h3>
+
+                    <ol reversed start="6">
                     <li>
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="resume-content">
@@ -209,31 +211,6 @@
                     <li>
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="resume-content">
-                            <a href="https://arxiv.org/abs/2510.06212" style="text-decoration: none"><h4 class="mb-0">Total Search Problems in ZPP</h4></a>
-                            <div class="subsubheading mb-0"><a href="https://noahrfleming.github.io">Noah Fleming</a>, <a href="https://blog.catalangrenade.com/p/about.html">Stefan Grosser</a>, <b>Siddhartha Jain</b>, <a href="https://www.cs.utexas.edu/~davidlee/">Jiawei Li</a>, <a href="https://morganfshirley.com">Morgan Shirley</a>, <a href="https://hanlin-ren.github.io">Hanlin Ren</a>, <a href="https://wwwaltzzz.github.io">Weiqiang Yuan</a></div>
-                            <div class="subsubheading mb-0"><b>ITCS 2026</b><br>
-                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                    <a href="https://eccc.weizmann.ac.il/report/2025/204/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
-                                    <a href="https://arxiv.org/abs/2512.01138" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
-                                </div>
-                                <details><summary>Abstract</summary>We initiate a systematic study of TFZPP, the class of total NP search problems solvable by polynomial time randomized algorithms. TFZPP contains a variety of important search problems such as Bertrand-Chebyshev (finding a prime between N and 2N), refuter problems for many circuit lower bounds, and Lossy-Code (Korten, CCC 2022). The Lossy-Code problem has found prominence due to its fundamental connections to derandomization, catalytic computing, and the metamathematics of complexity theory, among other areas.<br>
-    
-                                While TFZPP collapses to FP under standard derandomization assumptions in the white-box setting, we are able to separate TFZPP from the major TFNP subclasses in the black-box setting. In fact, we are able to separate it from every uniform TFNP class under a standard conjecture. To do so, we extend the connection between proof complexity and black-box TFNP to randomized proof systems and randomized reductions.<br>
-    
-                                Next, we turn to developing a taxonomy of TFZPP problems. We highlight a problem called Nephew, originating from an infinity axiom in set theory. We show that Nephew is in PWPP \cap TFZPP and conjecture that it is not reducible to Lossy-Code. Intriguingly, except for some artificial examples, most other black-box TFZPP problems that we are aware of reduce to Lossy-Code:
-                                <ul>
-                                <li>We define a problem called Empty-Child capturing finding a leaf in a rooted binary tree, and show that this problem is equivalent to Lossy-Code. We also show that a variant of Empty-Child with heights is complete for the intersection of SOPL and Lossy-Code.</li>
-                                <li>We strengthen Lossy-Code with several combinatorial inequalities such as the AM-GM inequality. We show the resulting new problems are still reducible to Lossy-Code. These results are proved by formalizations in bounded arithmetic, specifically in Jerabek's theory APC<sub>1</sub>.</li>
-                                <li>Finally, we show that the Dense-Linear-Ordering problem reduces to Lossy-Code.</li>
-                                </ul>
-                                </details>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                    <li>
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
                             <a href="https://eccc.weizmann.ac.il/report/2024/172/" style="text-decoration: none"><h4 class="mb-0">Quantum Communication Advantage in TFNP</h4></a>
                             <div class="subsubheading mb-0"><a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <a href="https://www.cst.cam.ac.uk/people/tg508">Tom Gur</a>, <b>Siddhartha Jain</b>, <a href="https://www.cs.utexas.edu/~davidlee/">Jiawei Li</a></div>
                             <div class="subsubheading mb-0"><b>STOC 2025, QIP 2025</b><br>
@@ -284,6 +261,69 @@
                         </div>
                     </div>
                     </li>
+
+                    <li>
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://eccc.weizmann.ac.il/report/2022/096/" style="text-decoration: none"><h4 class="mb-0">Communication Complexity of Collision</h4></a>
+                            <div class="subsubheading mb-0"><a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <b>Siddhartha Jain</b></div>
+                            <div class="subsubheading mb-0"><b>RANDOM 2022</b><br>
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <a href="https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.19" class="btn btn-secondary" role="button" aria-pressed="true">conference</a>
+                                    <a href="https://eccc.weizmann.ac.il/report/2022/096/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
+                                    <a href="https://arxiv.org/abs/2208.00029" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
+                                    <a href="https://www.youtube.com/watch?v=DmxDz1B3VMU" class="btn btn-secondary" role="button" aria-pressed="true">talk (me)</a>
+                                    <a href="assets/collision.pdf" class="btn btn-secondary" role="button" aria-pressed="true">slides</a>
+                                </div>
+                                <details><summary>Abstract</summary> The <i>Collision problem</i> is to decide whether a given list of n-bit numbers (x) is 1-to-1 or 2-to-1 when promised one of them is the case.
+                                    We show a polynomial randomised communication lower bound for the natural two-party version of Collision where Alice holds the first half of the bits of each x and Bob holds
+                                    the second half. As an application, we also show a similar lower bound for a weak bit-pigeonhole search problem, which answers a question of Itsykson and Riazanov (CCC 2021).
+                                </details>
+                                <details><summary>Follow-up</summary> The exponent 1/12 in our lower bound was improved to a tight exponent of 1/4 by <a href="https://eccc.weizmann.ac.il/report/2023/159/">Yang & Zhang</a> for classical protocols. The correct exponent remains open for quantum protocols.
+                                </details>
+                                <details><summary>Summary (for non-specialists)</summary>We study a natural problem in communication complexity where Alice and Bob want to check if their shared list of numbers has repeated elements (collisions) or not.
+                                    Our results are useful in cryptography. <br>
+                                    
+                                    In communication complexity, Alice and Bob recieve inputs x and y
+                                    and they want to compute a known function which depends on both x and y while communicating as few bits as possible. We study the problem where we have a list of n-bit numbers which are either all unique
+                                    or every number is repated twice. Alice recieves the first half of every number and Bob recieves the second half, and they want to decide which is the case. We prove the first non-trivial
+                                    lower bound for this problem, which has an application cryptography. In particular, it shows that it is possible to build a pair of hash functions for which it is hard to find a collision even if 
+                                    each function in the pair can be accessed through a backdoor by some adversary. These are called <a href="https://eprint.iacr.org/2018/770">Backdoored Random Oracles</a>.</details>
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+                    </ol>
+
+                    <h3 class="mb-3">Classical complexity</h3>
+
+                    <ol reversed start="6">
+                    <li>
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <a href="https://arxiv.org/abs/2510.06212" style="text-decoration: none"><h4 class="mb-0">Total Search Problems in ZPP</h4></a>
+                            <div class="subsubheading mb-0"><a href="https://noahrfleming.github.io">Noah Fleming</a>, <a href="https://blog.catalangrenade.com/p/about.html">Stefan Grosser</a>, <b>Siddhartha Jain</b>, <a href="https://www.cs.utexas.edu/~davidlee/">Jiawei Li</a>, <a href="https://morganfshirley.com">Morgan Shirley</a>, <a href="https://hanlin-ren.github.io">Hanlin Ren</a>, <a href="https://wwwaltzzz.github.io">Weiqiang Yuan</a></div>
+                            <div class="subsubheading mb-0"><b>ITCS 2026</b><br>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                    <a href="https://eccc.weizmann.ac.il/report/2025/204/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
+                                    <a href="https://arxiv.org/abs/2512.01138" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
+                                </div>
+                                <details><summary>Abstract</summary>We initiate a systematic study of TFZPP, the class of total NP search problems solvable by polynomial time randomized algorithms. TFZPP contains a variety of important search problems such as Bertrand-Chebyshev (finding a prime between N and 2N), refuter problems for many circuit lower bounds, and Lossy-Code (Korten, CCC 2022). The Lossy-Code problem has found prominence due to its fundamental connections to derandomization, catalytic computing, and the metamathematics of complexity theory, among other areas.<br>
+    
+                                While TFZPP collapses to FP under standard derandomization assumptions in the white-box setting, we are able to separate TFZPP from the major TFNP subclasses in the black-box setting. In fact, we are able to separate it from every uniform TFNP class under a standard conjecture. To do so, we extend the connection between proof complexity and black-box TFNP to randomized proof systems and randomized reductions.<br>
+    
+                                Next, we turn to developing a taxonomy of TFZPP problems. We highlight a problem called Nephew, originating from an infinity axiom in set theory. We show that Nephew is in PWPP \cap TFZPP and conjecture that it is not reducible to Lossy-Code. Intriguingly, except for some artificial examples, most other black-box TFZPP problems that we are aware of reduce to Lossy-Code:
+                                <ul>
+                                <li>We define a problem called Empty-Child capturing finding a leaf in a rooted binary tree, and show that this problem is equivalent to Lossy-Code. We also show that a variant of Empty-Child with heights is complete for the intersection of SOPL and Lossy-Code.</li>
+                                <li>We strengthen Lossy-Code with several combinatorial inequalities such as the AM-GM inequality. We show the resulting new problems are still reducible to Lossy-Code. These results are proved by formalizations in bounded arithmetic, specifically in Jerabek's theory APC<sub>1</sub>.</li>
+                                <li>Finally, we show that the Dense-Linear-Ordering problem reduces to Lossy-Code.</li>
+                                </ul>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+
                     <li>
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="resume-content">
@@ -330,37 +370,6 @@
                                 <details><summary>Abstract</summary> We study a natural complexity measure of Boolean functions known as the (exact) rational degree. For total functions f, it is conjectured that rdeg(f) is polynomially related to deg(f), where deg(f) is the Fourier degree. Towards this conjecture, we show that symmetric functions have rational degree at least deg(f)/2 and monotone functions have rational degree at least \sqrt{deg(f)}. We observe that both of these lower bounds are tight. In addition, we show that all read-once depth-d Boolean formulae have rational degree at least Ω(deg(f)1/d). Furthermore, we show that almost every Boolean function on n variables has rational degree at least n/2 - O(\sqrt{n}).
                                     In contrast to total functions, we exhibit partial functions that witness unbounded separations between rational and approximate degree, in both directions. As a consequence, we show that for quantum computers, post-selection and bounded-error are incomparable resources in the black-box model.
                                 </details>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                    <li>
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
-                            <a href="https://eccc.weizmann.ac.il/report/2022/096/" style="text-decoration: none"><h4 class="mb-0">Communication Complexity of Collision</h4></a>
-                            <div class="subsubheading mb-0"><a href="https://theory.epfl.ch/mika/">Mika Göös</a>, <b>Siddhartha Jain</b></div>
-                            <div class="subsubheading mb-0"><b>RANDOM 2022</b><br>
-                                <div class="btn-group btn-group-sm" role="group">
-                                    <a href="https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.19" class="btn btn-secondary" role="button" aria-pressed="true">conference</a>
-                                    <a href="https://eccc.weizmann.ac.il/report/2022/096/" class="btn btn-secondary" role="button" aria-pressed="true">eccc</a>
-                                    <a href="https://arxiv.org/abs/2208.00029" class="btn btn-secondary" role="button" aria-pressed="true">arXiv</a>
-                                    <a href="https://www.youtube.com/watch?v=DmxDz1B3VMU" class="btn btn-secondary" role="button" aria-pressed="true">talk (me)</a>
-                                    <a href="assets/collision.pdf" class="btn btn-secondary" role="button" aria-pressed="true">slides</a>
-                                </div>
-                                <details><summary>Abstract</summary> The <i>Collision problem</i> is to decide whether a given list of n-bit numbers (x) is 1-to-1 or 2-to-1 when promised one of them is the case.
-                                    We show a polynomial randomised communication lower bound for the natural two-party version of Collision where Alice holds the first half of the bits of each x and Bob holds
-                                    the second half. As an application, we also show a similar lower bound for a weak bit-pigeonhole search problem, which answers a question of Itsykson and Riazanov (CCC 2021).
-                                </details>
-                                <details><summary>Follow-up</summary> The exponent 1/12 in our lower bound was improved to a tight exponent of 1/4 by <a href="https://eccc.weizmann.ac.il/report/2023/159/">Yang & Zhang</a>.
-                                </details>
-                                <details><summary>Summary (for non-specialists)</summary>We study a natural problem in communication complexity where Alice and Bob want to check if their shared list of numbers has repeated elements (collisions) or not.
-                                    Our results are useful in cryptography. <br>
-                                    
-                                    In communication complexity, Alice and Bob recieve inputs x and y
-                                    and they want to compute a known function which depends on both x and y while communicating as few bits as possible. We study the problem where we have a list of n-bit numbers which are either all unique
-                                    or every number is repated twice. Alice recieves the first half of every number and Bob recieves the second half, and they want to decide which is the case. We prove the first non-trivial
-                                    lower bound for this problem, which has an application cryptography. In particular, it shows that it is possible to build a pair of hash functions for which it is hard to find a collision even if 
-                                    each function in the pair can be accessed through a backdoor by some adversary. These are called <a href="https://eprint.iacr.org/2018/770">Backdoored Random Oracles</a>.</details>
                             </div>
                         </div>
                     </div>
