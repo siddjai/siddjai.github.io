@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="TCS problems in Quantum Architecture and Compilation — a FOCS 2026 workshop on theoretical computer science problems arising from fault-tolerant quantum computing architecture and compilation." />
+        <meta name="author" content="Siddhartha Jain" />
+        <title>TCS Problems in Quantum Architecture and Compilation · FOCS 2026 Workshop</title>
+        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+
+        <!-- Open Graph / social preview -->
+        <meta property="og:title" content="TCS Problems in Quantum Architecture and Compilation" />
+        <meta property="og:description" content="A FOCS 2026 workshop formulating clean TCS problems arising from fault-tolerant quantum computing architecture and compilation." />
+        <meta property="og:type" content="website" />
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://kit.fontawesome.com/7cfe1d2662.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/styles.css" rel="stylesheet" />
+
+        <style>
+            :root {
+                --qw-primary: #004670;
+                --qw-accent: #964a2c;
+            }
+            body {
+                background-color: #fff;
+            }
+            /* Hero */
+            .qw-hero {
+                background-color: var(--qw-primary);
+                color: #fff;
+                padding: 4.5rem 1.5rem 3.5rem;
+            }
+            .qw-hero .qw-hero-inner {
+                max-width: 60rem;
+                margin: 0 auto;
+            }
+            .qw-badge {
+                display: inline-block;
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                letter-spacing: 0.12rem;
+                text-transform: uppercase;
+                font-size: 1.05rem;
+                background-color: rgba(255, 255, 255, 0.15);
+                border: 1px solid rgba(255, 255, 255, 0.35);
+                border-radius: 2rem;
+                padding: 0.35rem 1.1rem;
+                margin-bottom: 1.25rem;
+            }
+            .qw-hero h1 {
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.02rem;
+                font-size: clamp(2.4rem, 6vw, 4rem);
+                line-height: 1.02;
+                margin-bottom: 1.25rem;
+            }
+            .qw-hero h1 .qw-title-pre {
+                display: block;
+                font-weight: 500;
+                font-size: 0.42em;
+                letter-spacing: 0.06rem;
+                opacity: 0.8;
+                margin-bottom: 0.15rem;
+            }
+            .qw-hero-meta {
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-size: 1.4rem;
+                font-weight: 500;
+                opacity: 0.95;
+            }
+            .qw-hero-meta i {
+                width: 1.4rem;
+                text-align: center;
+                margin-right: 0.35rem;
+            }
+            .qw-hero-meta a {
+                color: #fff;
+                text-decoration: underline;
+                text-underline-offset: 3px;
+            }
+            .qw-hero-meta a:hover { color: #d8e6f0; }
+
+            /* Content shell */
+            .qw-wrap {
+                max-width: 60rem;
+                margin: 0 auto;
+                padding: 0 1.5rem;
+            }
+            .qw-section { padding: 3.25rem 0; }
+            .qw-section + .qw-section { border-top: 1px solid #ecedee; }
+            .qw-section h2 {
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.05rem;
+                color: var(--qw-primary);
+                font-size: 2.1rem;
+                margin-bottom: 1.4rem;
+            }
+            .qw-section p { font-size: 1.05rem; line-height: 1.7; color: #343a40; }
+            .qw-section a { color: var(--qw-primary); }
+            .qw-section a:hover { color: #ff0000; }
+
+            .qw-lead {
+                font-size: 1.2rem !important;
+                line-height: 1.6 !important;
+                color: #212529 !important;
+            }
+
+            /* When & Where */
+            .qw-info-row {
+                display: flex;
+                align-items: baseline;
+                gap: 1.25rem;
+                padding: 0.65rem 0;
+                border-bottom: 1px solid #ecedee;
+            }
+            .qw-info-row:last-child { border-bottom: none; }
+            .qw-info-label {
+                flex: 0 0 7.5rem;
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.04rem;
+                color: var(--qw-accent);
+                font-size: 1.2rem;
+            }
+            .qw-info-val { font-size: 1.2rem; color: #212529; }
+            @media (max-width: 575px) {
+                .qw-info-row { flex-direction: column; gap: 0.1rem; }
+                .qw-info-label { flex-basis: auto; }
+            }
+
+            /* Schedule */
+            .qw-talk {
+                display: flex;
+                align-items: baseline;
+                gap: 1.25rem;
+                padding: 1.1rem 0;
+                border-bottom: 1px solid #ecedee;
+            }
+            .qw-talk:last-child { border-bottom: none; }
+            .qw-time {
+                flex: 0 0 7.5rem;
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.04rem;
+                color: var(--qw-accent);
+                font-size: 1.15rem;
+            }
+            .qw-talk-body h3 {
+                font-family: "Muli", sans-serif;
+                font-weight: 800;
+                font-size: 1.15rem;
+                margin-bottom: 0.15rem;
+                color: #212529;
+            }
+            .qw-talk-body .qw-talk-title {
+                color: #495057;
+                font-size: 1.2rem;
+                margin-bottom: 0;
+            }
+            @media (max-width: 575px) {
+                .qw-talk { flex-direction: column; gap: 0.15rem; }
+                .qw-time { flex-basis: auto; }
+            }
+
+            /* Organizers */
+            .qw-org-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+                gap: 1rem;
+            }
+            .qw-org {
+                border: 1px solid #ecedee;
+                border-radius: 0.5rem;
+                padding: 1rem 1.15rem;
+                transition: box-shadow 0.15s ease, transform 0.15s ease;
+            }
+            .qw-org:hover {
+                box-shadow: 0 6px 18px rgba(0, 70, 112, 0.1);
+                transform: translateY(-2px);
+            }
+            .qw-org .qw-org-name { font-weight: 800; font-size: 1.2rem; }
+            .qw-org .qw-org-name a { color: var(--qw-primary); text-decoration: none; }
+            .qw-org .qw-org-name a:hover { color: #ff0000; }
+            .qw-org .qw-org-aff {
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-size: 1.2rem;
+                color: #6c757d;
+            }
+
+            /* Buttons / footer */
+            .qw-btn-row { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+            .qw-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-family: "Saira Extra Condensed", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.05rem;
+                font-size: 1.15rem;
+                padding: 0.6rem 1.4rem;
+                border-radius: 0.4rem;
+                text-decoration: none;
+                border: 2px solid var(--qw-primary);
+            }
+            .qw-btn-primary { background: var(--qw-primary); color: #fff !important; }
+            .qw-btn-primary:hover { background: var(--qw-accent); border-color: var(--qw-accent); }
+            .qw-btn-outline { color: var(--qw-primary) !important; background: #fff; }
+            .qw-btn-outline:hover { background: var(--qw-primary); color: #fff !important; }
+
+            .qw-footer {
+                background: #f8f9fa;
+                border-top: 1px solid #ecedee;
+                padding: 2.25rem 1.5rem;
+                text-align: center;
+                color: #6c757d;
+                font-size: 0.95rem;
+            }
+            .qw-footer a { color: var(--qw-primary); }
+            .qw-topback {
+                display: inline-block;
+                margin-bottom: 1.5rem;
+                color: #d8e6f0;
+                text-decoration: none;
+                font-family: "Saira Extra Condensed", sans-serif;
+                letter-spacing: 0.05rem;
+                font-size: 1.15rem;
+            }
+            .qw-topback:hover { color: #fff; }
+        </style>
+    </head>
+    <body>
+        <!-- Hero -->
+        <header class="qw-hero">
+            <div class="qw-hero-inner">
+                <div><span class="qw-badge">FOCS 2026 Workshop</span></div>
+                <h1><span class="qw-title-pre">TCS Problems in</span>Quantum Architecture &amp; Compilation</h1>
+                <div class="qw-hero-meta">
+                    <div class="mb-1"><i class="far fa-calendar"></i> November 2026 &middot; New York City</div>
+                    <div><i class="far fa-clock"></i> 2.5 hours</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="qw-wrap">
+            <!-- Topic and goals -->
+            <section class="qw-section" id="about">
+                <h2>Topic &amp; Goals</h2>
+                <p class="qw-lead">
+                    Quantum computing hardware and error correction theory have seen rapid progress in recent years.
+                    We are on the verge of achieving early fault-tolerant quantum computing (FTQC), with a stream of new
+                    architectural proposals targeting cryptanalysis and chemistry simulations. The design of quantum
+                    architectures, and compilation of useful applications to such architectures, is becoming a popular area
+                    of research with many new problems and opportunities.
+                </p>
+                <p class="qw-lead">
+                    This workshop aims to formulate clean TCS problems arising from this emerging topic, with particular
+                    emphasis on architectural design choices and tradeoffs, bottlenecks in space-time overhead, compilation
+                    methods and challenges, and mathematical formulation of hardware constraints. Example questions include
+                    lower bounds and tradeoffs on space-time overhead for FTQC, bounds on non-Clifford resources in
+                    algorithms, hypergraph expansion and sparsification for code surgery, adapting classical code-design
+                    principles to quantum codes, and more. As the race toward application-scale quantum computers
+                    accelerates, these architectural choices create timely opportunities for theoretical computer scientists
+                    to shape both algorithms and hardware.
+                </p>
+            </section>
+
+            <!-- When & Where -->
+            <section class="qw-section" id="when-where">
+                <div class="qw-info-row">
+                    <span class="qw-info-label">When</span>
+                    <span class="qw-info-val">November 8, 2026</span>
+                </div>
+                <div class="qw-info-row">
+                    <span class="qw-info-label">Where</span>
+                    <span class="qw-info-val">NYU Kimmel Center for University Life, New York, NY</span>
+                </div>
+            </section>
+
+            <!-- Schedule -->
+            <section class="qw-section" id="schedule">
+                <h2>Schedule</h2>
+
+                <div class="qw-talk">
+                    <div class="qw-time">30 min</div>
+                    <div class="qw-talk-body">
+                        <h3><a href="https://sunnyzhiyanghe.github.io/">Zhiyang (Sunny) He</a></h3>
+                        <p class="qw-talk-title">Overview of modern FTQC architectures.</p>
+                    </div>
+                </div>
+
+                <div class="qw-talk">
+                    <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
+                    <div class="qw-talk-body">
+                        <h3><a href="https://www.eecs.mit.edu/people/harryzhou/">Hengyun (Harry) Zhou</a></h3>
+                        <p class="qw-talk-title">Co-design of FTQC with specific algorithms and applications.</p>
+                    </div>
+                </div>
+
+                <div class="qw-talk">
+                    <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
+                    <div class="qw-talk-body">
+                        <h3><a href="https://simons.berkeley.edu/people/qian-xu">Qian Xu</a></h3>
+                        <p class="qw-talk-title">Cost model of FTQC on neutral atom hardware.</p>
+                    </div>
+                </div>
+
+                <div class="qw-talk">
+                    <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
+                    <div class="qw-talk-body">
+                        <h3><a href="https://scholar.google.com/citations?user=OhiKBrsAAAAJ&hl=en">Ted Yoder</a></h3>
+                        <p class="qw-talk-title">Combinatorial problems that are useful for FTQC.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Organizers -->
+            <section class="qw-section" id="organizers">
+                <h2>Organizers</h2>
+                <div class="qw-org-grid">
+                    <div class="qw-org">
+                        <div class="qw-org-name"><a href="https://sunnyzhiyanghe.github.io/">Zhiyang He</a></div>
+                        <div class="qw-org-aff">MIT</div>
+                    </div>
+                    <div class="qw-org">
+                        <div class="qw-org-name"><a href="https://hsinyuan-huang.github.io/">Robert Huang</a></div>
+                        <div class="qw-org-aff">Caltech &amp; Oratomic</div>
+                    </div>
+                    <div class="qw-org">
+                        <div class="qw-org-name"><a href="https://sidjain.me/">Siddhartha Jain</a></div>
+                        <div class="qw-org-aff">UT Austin</div>
+                    </div>
+                    <div class="qw-org">
+                        <div class="qw-org-name"><a href="https://www.robinkothari.com/">Robin Kothari</a></div>
+                        <div class="qw-org-aff">Google</div>
+                    </div>
+                    <div class="qw-org">
+                        <div class="qw-org-name"><a href="https://simons.berkeley.edu/people/esha-swaroop">Esha Swaroop</a></div>
+                        <div class="qw-org-aff">University of Waterloo</div>
+                    </div>
+                </div>
+
+                <div class="qw-btn-row">
+                    <a class="qw-btn qw-btn-primary" href="https://focs.computer.org/2026/"><i class="fas fa-external-link-alt"></i> FOCS 2026</a>
+                </div>
+            </section>
+        </div>
+
+        <footer class="qw-footer">
+            <div>Organized for <a href="https://focs.computer.org/2026/">FOCS 2026</a> · TCS Problems in Quantum Architecture and Compilation</div>
+        </footer>
+    </body>
+</html>
