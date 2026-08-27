@@ -15,20 +15,29 @@
 
         <!-- Font Awesome icons (free version)-->
         <script src="https://kit.fontawesome.com/7cfe1d2662.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Display font for headings/labels-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/css/styles.css" rel="stylesheet" />
 
         <style>
             :root {
                 --qw-primary: #004670;
                 --qw-accent: #964a2c;
+                --qw-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                --qw-display: "Saira Extra Condensed", var(--qw-font);
             }
+            * { box-sizing: border-box; }
             body {
+                margin: 0;
+                font-family: var(--qw-font);
+                color: #212529;
+                line-height: 1.5;
                 background-color: #fff;
+                -webkit-font-smoothing: antialiased;
             }
+            h1, h2, h3 { margin-top: 0; }
+            p { margin-top: 0; margin-bottom: 1rem; }
+            .mb-1 { margin-bottom: 0.25rem; }
+
             /* Hero */
             .qw-hero {
                 background-color: var(--qw-primary);
@@ -41,11 +50,10 @@
             }
             .qw-badge {
                 display: inline-block;
-                font-family: "Saira Extra Condensed", sans-serif;
                 font-weight: 700;
-                letter-spacing: 0.12rem;
+                letter-spacing: 0.1rem;
                 text-transform: uppercase;
-                font-size: 1.05rem;
+                font-size: 0.85rem;
                 background-color: rgba(255, 255, 255, 0.15);
                 border: 1px solid rgba(255, 255, 255, 0.35);
                 border-radius: 2rem;
@@ -53,12 +61,13 @@
                 margin-bottom: 1.25rem;
             }
             .qw-hero h1 {
-                font-family: "Saira Extra Condensed", sans-serif;
+                color: #fff;
+                font-family: var(--qw-display);
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 0.02rem;
                 font-size: clamp(2.4rem, 6vw, 4rem);
-                line-height: 1.02;
+                line-height: 1.05;
                 margin-bottom: 1.25rem;
             }
             .qw-hero h1 .qw-title-pre {
@@ -66,12 +75,11 @@
                 font-weight: 500;
                 font-size: 0.42em;
                 letter-spacing: 0.06rem;
-                opacity: 0.8;
-                margin-bottom: 0.15rem;
+                opacity: 0.85;
+                margin-bottom: 0.2rem;
             }
             .qw-hero-meta {
-                font-family: "Saira Extra Condensed", sans-serif;
-                font-size: 1.4rem;
+                font-size: 1.05rem;
                 font-weight: 500;
                 opacity: 0.95;
             }
@@ -96,7 +104,7 @@
             .qw-section { padding: 3.25rem 0; }
             .qw-section + .qw-section { border-top: 1px solid #ecedee; }
             .qw-section h2 {
-                font-family: "Saira Extra Condensed", sans-serif;
+                font-family: var(--qw-display);
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 0.05rem;
@@ -109,8 +117,8 @@
             .qw-section a:hover { color: #ff0000; }
 
             .qw-lead {
-                font-size: 1.2rem !important;
-                line-height: 1.6 !important;
+                font-size: 1.15rem !important;
+                line-height: 1.65 !important;
                 color: #212529 !important;
             }
 
@@ -125,14 +133,14 @@
             .qw-info-row:last-child { border-bottom: none; }
             .qw-info-label {
                 flex: 0 0 7.5rem;
-                font-family: "Saira Extra Condensed", sans-serif;
+                font-family: var(--qw-display);
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 0.04rem;
                 color: var(--qw-accent);
                 font-size: 1.2rem;
             }
-            .qw-info-val { font-size: 1.2rem; color: #212529; }
+            .qw-info-val { font-size: 1.15rem; color: #212529; }
             @media (max-width: 575px) {
                 .qw-info-row { flex-direction: column; gap: 0.1rem; }
                 .qw-info-label { flex-basis: auto; }
@@ -149,7 +157,7 @@
             .qw-talk:last-child { border-bottom: none; }
             .qw-time {
                 flex: 0 0 7.5rem;
-                font-family: "Saira Extra Condensed", sans-serif;
+                font-family: var(--qw-display);
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 0.04rem;
@@ -157,7 +165,6 @@
                 font-size: 1.15rem;
             }
             .qw-talk-body h3 {
-                font-family: "Muli", sans-serif;
                 font-weight: 800;
                 font-size: 1.15rem;
                 margin-bottom: 0.15rem;
@@ -165,7 +172,7 @@
             }
             .qw-talk-body .qw-talk-title {
                 color: #495057;
-                font-size: 1.2rem;
+                font-size: 1.15rem;
                 margin-bottom: 0;
             }
             @media (max-width: 575px) {
@@ -189,12 +196,11 @@
                 box-shadow: 0 6px 18px rgba(0, 70, 112, 0.1);
                 transform: translateY(-2px);
             }
-            .qw-org .qw-org-name { font-weight: 800; font-size: 1.2rem; }
+            .qw-org .qw-org-name { font-weight: 800; font-size: 1.15rem; }
             .qw-org .qw-org-name a { color: var(--qw-primary); text-decoration: none; }
             .qw-org .qw-org-name a:hover { color: #ff0000; }
             .qw-org .qw-org-aff {
-                font-family: "Saira Extra Condensed", sans-serif;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 color: #6c757d;
             }
 
@@ -204,11 +210,9 @@
                 display: inline-flex;
                 align-items: center;
                 gap: 0.5rem;
-                font-family: "Saira Extra Condensed", sans-serif;
                 font-weight: 700;
-                text-transform: uppercase;
-                letter-spacing: 0.05rem;
-                font-size: 1.15rem;
+                letter-spacing: 0.02rem;
+                font-size: 1rem;
                 padding: 0.6rem 1.4rem;
                 border-radius: 0.4rem;
                 text-decoration: none;
@@ -216,8 +220,6 @@
             }
             .qw-btn-primary { background: var(--qw-primary); color: #fff !important; }
             .qw-btn-primary:hover { background: var(--qw-accent); border-color: var(--qw-accent); }
-            .qw-btn-outline { color: var(--qw-primary) !important; background: #fff; }
-            .qw-btn-outline:hover { background: var(--qw-primary); color: #fff !important; }
 
             .qw-footer {
                 background: #f8f9fa;
@@ -228,16 +230,6 @@
                 font-size: 0.95rem;
             }
             .qw-footer a { color: var(--qw-primary); }
-            .qw-topback {
-                display: inline-block;
-                margin-bottom: 1.5rem;
-                color: #d8e6f0;
-                text-decoration: none;
-                font-family: "Saira Extra Condensed", sans-serif;
-                letter-spacing: 0.05rem;
-                font-size: 1.15rem;
-            }
-            .qw-topback:hover { color: #fff; }
         </style>
     </head>
     <body>
