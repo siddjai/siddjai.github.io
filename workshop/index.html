@@ -175,6 +175,20 @@
                 font-size: 1.15rem;
                 margin-bottom: 0;
             }
+            .qw-abstract { margin-top: 0.5rem; }
+            .qw-abstract summary {
+                cursor: pointer;
+                font-family: var(--qw-display);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.04rem;
+                color: var(--qw-accent);
+                font-size: 1rem;
+            }
+            .qw-abstract summary:hover { color: var(--qw-primary); }
+            .qw-abstract[open] summary { margin-bottom: 0.5rem; }
+            .qw-abstract p { font-size: 1rem; line-height: 1.65; }
+            .qw-abstract p:last-child { margin-bottom: 0; }
             @media (max-width: 575px) {
                 .qw-talk { flex-direction: column; gap: 0.15rem; }
                 .qw-time { flex-basis: auto; }
@@ -272,11 +286,11 @@
             <section class="qw-section" id="when-where">
                 <div class="qw-info-row">
                     <span class="qw-info-label">When</span>
-                    <span class="qw-info-val">November 8, 2026</span>
+                    <span class="qw-info-val">12:30-3pm, November 8, 2026</span>
                 </div>
                 <div class="qw-info-row">
                     <span class="qw-info-label">Where</span>
-                    <span class="qw-info-val">NYU Kimmel Center for University Life, New York, NY</span>
+                    <span class="qw-info-val">Warren Weaver Hall, 251 Mercer Street, New York, NY</span>
                 </div>
             </section>
 
@@ -296,7 +310,12 @@
                     <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
                     <div class="qw-talk-body">
                         <h3><a href="https://www.eecs.mit.edu/people/harryzhou/">Hengyun (Harry) Zhou</a></h3>
-                        <p class="qw-talk-title">TBD</p>
+                        <p class="qw-talk-title">Co-Designing Quantum Error Correction and Quantum Algorithms</p>
+                        <details class="qw-abstract">
+                            <summary>Abstract</summary>
+                            <p>High-rate quantum LDPC codes reduce the qubit overhead of fault tolerance, but they also change how logical operations must be designed, since many logical qubits share a single code block. For a given quantum error-correcting code, it is likely that certain operations are easier to do than others, motivating a complex instruction set. An important question is therefore how the error correction instruction set can be co-designed with the needs of quantum algorithms.</p>
+                            <p>In this talk, we will describe recent work on co-designing logical instruction sets with algorithms, including the role of structure and parallelism in lowering the space-time cost of implementing logical algorithms. We discuss batching logical operations as a motif for applying the same fault-tolerant gadget across many code blocks at once and achieving constant space-time overhead, and then discuss how further adaptations into in-block batching can achieve further reductions in overhead.</p>
+                        </details>
                     </div>
                 </div>
 
@@ -304,7 +323,12 @@
                     <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
                     <div class="qw-talk-body">
                         <h3><a href="https://simons.berkeley.edu/people/qian-xu">Qian Xu</a></h3>
-                        <p class="qw-talk-title">TBD</p>
+                        <p class="qw-talk-title">Control complexity and fault tolerance of neutral-atom quantum computers</p>
+                        <details class="qw-abstract">
+                            <summary>Abstract</summary>
+                            <p>Reconfigurable neutral-atom arrays have emerged as a promising platform for high-rate quantum error correction and fault-tolerant computation, thanks to their long-range interactions and highly parallel control. In this tutorial, we will attempt to understand this connection from a theoretical perspective. What makes a fault-tolerant protocol easy or hard to implement on such a machine, and how should we quantify that distinction?</p>
+                            <p>We will explore coarse-grained mathematical models that capture the essential capabilities and constraints of physical control and use simplified complexity analyses to understand how implementation costs scale with system size. Through examples of error correction and logical computation, we will examine why some protocols are better suited to the hardware and how their structure shapes tradeoffs between qubit overhead, parallelism, and control complexity. The goal is to identify general design principles and open theoretical questions for fault-tolerant architectures that remain efficient to control as they scale.</p>
+                        </details>
                     </div>
                 </div>
 
@@ -312,7 +336,11 @@
                     <div class="qw-time">30 min<br>+ 10 Q&amp;A</div>
                     <div class="qw-talk-body">
                         <h3><a href="https://scholar.google.com/citations?user=OhiKBrsAAAAJ&hl=en">Ted Yoder</a></h3>
-                        <p class="qw-talk-title">TBD</p>
+                        <p class="qw-talk-title">Surgery with ultra-low space overhead</p>
+                        <details class="qw-abstract">
+                            <summary>Abstract</summary>
+                            <p>We extend the design-space of LDPC surgery and use it to build very low overhead gadgets for BB codes.</p>
+                        </details>
                     </div>
                 </div>
             </section>
