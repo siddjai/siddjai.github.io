@@ -39,4 +39,20 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    // Selected papers: copy each paper into the card for its data-topic
+    // (papers without one stay list-only), then let the toggle switch
+    // between the chronological list and the cards
+    $("#selected-list > .resume-item[data-topic]").each(function () {
+        var paper = $(this).find(".resume-content").first().clone();
+        paper.addClass("sp-paper");
+        $('#selected-cards .sp-card[data-topic="' + $(this).data("topic") + '"]').append(paper);
+    });
+
+    $("#selected-toggle").click(function () {
+        var showCards = $(this).attr("aria-pressed") !== "true";
+        $("#selected-list").prop("hidden", showCards);
+        $("#selected-cards").prop("hidden", !showCards);
+        $(this).attr("aria-pressed", showCards).text(showCards ? "chronological" : "by topic");
+    });
 })(jQuery); // End of use strict

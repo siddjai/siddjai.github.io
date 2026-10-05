@@ -10135,3 +10135,71 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* Selected papers: topic cards (toggled by #selected-toggle) */
+/* Styled like the "(see more)" link next to it */
+.sp-toggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: #004670;
+  cursor: pointer;
+}
+
+.sp-toggle:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.sp-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Two columns on wide screens, where every card matches the tallest one */
+@media (min-width: 1200px) {
+  .sp-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+}
+
+.sp-card {
+  border: 1px solid #ecedee;
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.25rem 0.4rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.sp-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 70, 112, 0.1);
+  transform: translateY(-2px);
+}
+
+.sp-card .sp-topic {
+  color: #004670;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #ecedee;
+}
+
+.sp-card .sp-subtitle {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #6c757d;
+}
+
+.sp-card .sp-paper {
+  margin-bottom: 0.9rem;
+}
